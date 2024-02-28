@@ -4,7 +4,7 @@ import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="h-40 sm:h-[250px] bg-black/90">
+    <footer className="h-40 sm:h-[250px] bg-gradient-to-r from-one via-gray-900 to-purple-800">
       <div className="h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
         <h2
           data-aos="zoom-out"

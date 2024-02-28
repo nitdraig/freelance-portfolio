@@ -48,19 +48,19 @@ const NavBar = (props: any) => {
       isBlurred={false}
       className={` lg:h-20 ${
         scrollPosition > 0
-          ? `bg-black/80 shadow-md transition`
+          ? `bg-gray-900/80 shadow-md transition`
           : "bg-transparent"
       } `}
     >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden text-white"
+          className="sm:hidden text-text"
         />
         <NavbarBrand>
           <Link
             href="/#"
-            className="text-2xl text-white  hover:text-[#8a5cf5] font-bold sm:text-3xl"
+            className="text-2xl text-text  hover:text-second font-bold sm:text-3xl"
           >
             Agustín Dev
           </Link>
@@ -71,7 +71,7 @@ const NavBar = (props: any) => {
         <NavbarItem>
           <a
             href="/#aboutme"
-            className="text-white text-lg  uppercase hover:text-[#9b5cff]"
+            className="text-text text-lg  uppercase hover:text-second"
           >
             Acerca de mí
           </a>
@@ -79,7 +79,7 @@ const NavBar = (props: any) => {
         <NavbarItem>
           <a
             href="/#projects"
-            className="text-white text-lg  uppercase hover:text-[#9b5cff]"
+            className="text-text text-lg  uppercase hover:text-second"
           >
             Proyectos
           </a>
@@ -87,7 +87,7 @@ const NavBar = (props: any) => {
         <NavbarItem>
           <a
             href="#"
-            className="text-white text-lg  uppercase hover:text-[#9b5cff]"
+            className="text-text text-lg  uppercase hover:text-second"
           >
             Servicios
           </a>
@@ -96,7 +96,7 @@ const NavBar = (props: any) => {
           <a
             href="https://es.blog.agustin.top"
             target="_blank"
-            className="text-white text-lg uppercase hover:text-[#9b5cff]"
+            className="text-text text-lg uppercase hover:text-second"
           >
             Blog
           </a>
@@ -106,21 +106,21 @@ const NavBar = (props: any) => {
         <NavbarItem className="hidden lg:flex">
           <a
             href="/#contact"
-            className="bg-gray-200  text-[1rem] text-black px-8 py-2 rounded-lg font-bold hover:text-[#9b5cff] md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+            className="bg-gray-200  text-[1rem] text-black px-8 py-2 rounded-lg font-bold hover:text-second md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
           >
             Contacta conmigo
           </a>
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">
           <button
-            className="bg-[#422591] text-[1rem] text-white px-4 py-2 rounded-lg font-bold hover:text-[#7795f7] md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+            className="bg-second text-[1rem] text-text px-4 py-2 rounded-lg font-bold hover:text-third md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             // onClick={toggleLanguage}
           >
             Es
           </button>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="text-white bg-black/60 ">
+      <NavbarMenu className="text-text bg-black/60 ">
         <div className="mt-2">
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`} className="mt-4">

@@ -33,63 +33,84 @@ const Contact = () => {
       });
     }
   };
+
   return (
     <section
-      className=" bg-[#212529] h-full text-white pb-10 pt-10"
+      className="bg-gradient-to-r from-one via-gray-900 to-one h-full text-white pb-10 pt-10"
       id="contact"
     >
-      <div className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-gray-100 text-lg lg:text-2xl lg:pt-3 pt-5 pb-4 lg:pb-8">
+      <div className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-gray-100 text-lg lg:text-2xl lg:pt-3 pt-5 pb-8">
         Contacta conmigo
       </div>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
-      <div className="mx-auto w-full max-w-lg">
-        <p className="mt-3">
-          Cuentame como puedo ayudar al éxito de tu proyecto
-        </p>
-        <form action="https://api.web3forms.com/submit" className="mt-10">
-          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-          <div className="grid gap-6 sm:grid-cols-2">
-            <div className="relative z-0">
-              <input
-                type="text"
-                name="name"
-                className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
-                placeholder=" "
-              />
-              <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
-                Your name
-              </label>
+      <div className="flex justify-between mx-auto max-w-5xl mt-4">
+        <div className="w-full max-w-lg mx-4">
+          <h3 className="mt-3 text-lg">
+            Cuéntame cómo puedo ayudar al éxito de tu proyecto
+          </h3>
+          <form onSubmit={onSubmit} className="mt-10">
+            <input
+              type="hidden"
+              name="access_key"
+              value="YOUR_ACCESS_KEY_HERE"
+            />
+            <div className="grid gap-6 sm:grid-cols-2">
+              <div className="relative z-0">
+                <input
+                  type="text"
+                  name="name"
+                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                />
+                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                  Tu nombre
+                </label>
+              </div>
+              <div className="relative z-0">
+                <input
+                  type="text"
+                  name="email"
+                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                />
+                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                  Tu correo electrónico
+                </label>
+              </div>
+              <div className="relative z-0 col-span-2">
+                <textarea
+                  name="message"
+                  rows={5}
+                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                ></textarea>
+                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                  Tu mensaje
+                </label>
+              </div>
             </div>
-            <div className="relative z-0">
-              <input
-                type="text"
-                name="email"
-                className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
-                placeholder=" "
-              />
-              <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
-                Your email
-              </label>
-            </div>
-            <div className="relative z-0 col-span-2">
-              <textarea
-                name="message"
-                rows={5}
-                className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
-                placeholder=" "
-              ></textarea>
-              <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
-                Your message
-              </label>
-            </div>
-          </div>
-          <button
-            type="submit"
-            className="mt-5 rounded-md bg-black px-10 py-2 text-white"
+            <button
+              type="submit"
+              className="mt-5 rounded-md text-lg bg-third px-10 py-2 hover:bg-second hover:text-third text-black"
+            >
+              Enviar mensaje <RiSendPlaneFill className="inline-block ml-2" />
+            </button>
+          </form>
+        </div>
+        <div className="w-full max-w-lg mx-10">
+          <h2 className="text-2xl font-bold mb-4">Agenda una Videollamada</h2>
+          <p className="text-lg mb-4">
+            ¡Hablemos sobre tu proyecto! Agenda una videollamada para discutir
+            tus necesidades y cómo puedo ayudarte.
+          </p>
+          <a
+            href="https://calendly.com/nitdraig"
+            target="_blank"
+            className="text-2xl  flex font-bold items-center text-blue-500 hover:text-second"
           >
-            Send Message
-          </button>
-        </form>
+            Agenda ahora <BsArrowRight className="ml-2" />
+          </a>
+        </div>
       </div>
     </section>
   );

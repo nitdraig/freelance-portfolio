@@ -20,10 +20,13 @@ const About = () => {
   };
 
   return (
-    <section className="bg-[#212529] h-full" id="aboutme">
+    <section
+      className="bg-gradient-to-r from-one via-gray-900 to-one h-full"
+      id="aboutme"
+    >
       <div className="flex justify-center items-center">
         <div className="w-full">
-          <div className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-gray-100 text-lg lg:text-2xl lg:pt-3 pt-5 pb-4 lg:pb-8">
+          <div className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-white text-lg lg:text-2xl lg:pt-3 pt-5 pb-4 lg:pb-8">
             Transformando ideas en experiencias digitales excepcionales
           </div>
           <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
