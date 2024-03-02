@@ -29,21 +29,23 @@ const Why = () => {
             <li>Quality - Calidad</li>
             <li>Success - Éxito</li>
           </ul>
-          <div className="mb-4 mt-4 flex justify-center items-center">
-            <img src="/4.svg" alt="Diagrama de flujo" className="w-full  " />
-          </div>
-          <p className="text-2xl text-white mb-8 font-semibold">
-            En este diagrama te muestro mi proceso de acompañamiento para hacer
-            que tu proyecto tenga el éxito y la calidad más alta posible.
-          </p>
-          <div className="text-center flex justify-center">
-            <a
-              href="https://calendly.com/nitdraig"
-              target="_blank"
-              className="text-lg bg-gray-200 rounded-md px-10 py-2 flex font-bold items-center text-[#0c0c0c] hover:text-[#6A0DAD]"
-            >
-              Presupuestar <TfiWrite className="ml-2" />
-            </a>
+          <div>
+            <div className="mb-4 mt-4 flex justify-center items-center">
+              <img src="/4.svg" alt="Diagrama de flujo" className="w-full  " />
+            </div>
+            <p className="text-2xl text-white mb-8 font-semibold">
+              En este diagrama te muestro mi proceso de acompañamiento para
+              hacer que tu proyecto tenga el éxito y la calidad más alta
+              posible.
+            </p>
+            <div className="text-center flex justify-center">
+              <a
+                href="/#contact"
+                className="text-lg bg-gray-200 rounded-md px-10 py-2 flex font-bold items-center text-[#0c0c0c] hover:text-[#6A0DAD]"
+              >
+                Presupuestar <TfiWrite className="ml-2" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
