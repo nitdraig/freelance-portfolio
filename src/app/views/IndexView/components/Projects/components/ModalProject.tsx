@@ -23,7 +23,7 @@ export default function ModalProject({
   return (
     <>
       <Button
-        className=" bg-[#6A0DAD] mt-2 hover:bg-gray-200 hover:text-[#6A0DAD] text-white  rounded-lg px-4 py-2"
+        className=" bg-[#6A0DAD] mt-2 hover:bg-gray-200 font-bold hover:text-[#6A0DAD] text-white  rounded-lg px-4 py-2"
         onPress={onOpen}
       >
         Leer más
@@ -78,7 +78,7 @@ export default function ModalProject({
                 </Link>
               </div>
               <Button
-                className="bg-[#bd2f2f]  hover:bg-gray-200 hover:text-[#6A0DAD] text-white  rounded-lg px-4 py-2"
+                className="bg-[#bd2f2f]  hover:bg-gray-200 hover:text-[#6A0DAD] text-white font-semibold  rounded-lg px-4 py-2"
                 onPress={onClose}
               >
                 Cerrar
