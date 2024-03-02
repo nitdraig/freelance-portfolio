@@ -5,10 +5,10 @@ import { projectLists } from "../../../../locals/var";
 const Projects = () => {
   return (
     <section
-      className=" bg-gradient-to-r from-one via-gray-900 to-one  w-screen"
+      className=" bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]  w-screen"
       id="projects"
     >
-      <h2 className="  p-12 text-center uppercase tracking-[8px] text-gray-100 text-2xl lg:pt-6 pb-8">
+      <h2 className="  p-12 text-center uppercase tracking-[8px] text-white text-2xl lg:text-3xllg:pt-6 pb-8">
         Mis casos de éxitos
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>

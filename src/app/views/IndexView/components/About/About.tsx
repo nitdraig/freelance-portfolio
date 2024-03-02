@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <section
-      className="bg-gradient-to-r from-one via-gray-900 to-one h-full"
+      className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F] h-full"
       id="aboutme"
     >
       <div className="flex justify-center items-center">

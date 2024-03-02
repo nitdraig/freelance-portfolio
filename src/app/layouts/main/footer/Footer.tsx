@@ -1,10 +1,11 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className=" bg-gradient-to-r from-one via-gray-900 to-purple-800">
+    <footer className=" bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]">
       <div className="h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
         <h2
           data-aos="zoom-out"
@@ -21,7 +22,7 @@ const Footer = () => {
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
-            <FaLinkedinIn className="text-white  text-3xl hover:scale-125 hover:text-secondary cursor-pointer" />
+            <FaLinkedinIn className="text-white  text-3xl hover:scale-125 hover:text-[#6A0DAD] cursor-pointer" />
           </a>
           <a
             data-aos="fade-up"
@@ -30,18 +31,20 @@ const Footer = () => {
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
-            <IoLogoTwitter className=" text-white  text-3xl hover:scale-125 hover:text-secondary cursor-pointer" />
+            <IoLogoTwitter className="text-white  text-3xl hover:scale-125 hover:text-[#6A0DAD] cursor-pointer" />
           </a>
         </div>
-        <div className="sm:text-[12px] text-white hover:text-[#dbdbdb]">
+        <div className="lg:text-lg text-md text-center text-white hover:text-[#dbdbdb]">
           <a
             href="https://www.linkedin.com/in/avellaneda-agustín-tns"
             target="_blank"
           >
-            <span>
-              All rights reserved Copyright © {new Date().getFullYear()} || Dev
-              with love by Agustín Avellaneda
-            </span>
+            <p>
+              All rights reserved Copyright © {new Date().getFullYear()}{" "}
+              <br className="lg:hidden" />
+              <span className="lg:inline hidden"> ||</span> Dev with &hearts; by
+              Agustín Avellaneda
+            </p>
           </a>
         </div>
       </div>

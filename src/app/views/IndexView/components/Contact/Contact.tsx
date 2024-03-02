@@ -36,14 +36,14 @@ const Contact = () => {
 
   return (
     <section
-      className="bg-gradient-to-r from-one via-gray-900 to-one h-full text-white pb-10 pt-10"
+      className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]  h-full text-white pb-10 pt-10"
       id="contact"
     >
-      <h2 className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-gray-100 text-lg lg:text-2xl lg:pt-3 pt-5 pb-8">
+      <h2 className="lg:p-12 text-center uppercase tracking-[2px] lg:tracking-[8px] text-white text-2xl lg:text-3xl lg:pt-3 pt-5 pb-8">
         Contacta conmigo
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
-      <div className="max-w-5xl flex mx-auto flex-col lg:flex-row  mt-8">
+      <div className="max-w-5xl flex  lg:mx-auto mx-4 flex-col lg:flex-row  mt-8">
         <div className="w-full max-w-lg lg:mr-10">
           <h3 className=" text-2xl font-bold mb-4">
             Cuéntame cómo puedo ayudar al éxito de tu proyecto
@@ -59,10 +59,10 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
-                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]">
                   Tu nombre
                 </label>
               </div>
@@ -70,10 +70,10 @@ const Contact = () => {
                 <input
                   type="text"
                   name="email"
-                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
-                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]">
                   Tu correo
                 </label>
               </div>
@@ -81,17 +81,17 @@ const Contact = () => {
                 <textarea
                   name="message"
                   rows={5}
-                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-blue-600 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></textarea>
-                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]">
                   Tu mensaje
                 </label>
               </div>
             </div>
             <button
               type="submit"
-              className="mt-5 rounded-md text-lg bg-third px-10 py-2 hover:bg-second hover:text-third text-black"
+              className="mt-5 rounded-md text-lg bg-[#C0C0C0] px-10 py-2 hover:bg-[#6A0DAD] hover:text-[#C0C0C0] text-black"
             >
               Enviar mensaje <RiSendPlaneFill className="inline-block ml-2" />
             </button>
@@ -106,7 +106,7 @@ const Contact = () => {
           <a
             href="https://calendly.com/nitdraig"
             target="_blank"
-            className="text-2xl  flex font-bold items-center text-blue-500 hover:text-second"
+            className="text-2xl  flex font-bold items-center text-[#fff] hover:text-[#6A0DAD]"
           >
             Agenda ahora <BsArrowRight className="ml-2" />
           </a>

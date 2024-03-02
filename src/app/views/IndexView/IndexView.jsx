@@ -4,6 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Services from "./components/services";
+import Why from "./components/Why";
 
 const IndexView = () => {
   return (
@@ -12,6 +13,7 @@ const IndexView = () => {
       <About />
       <Projects />
       <Services />
+      <Why />
       <Contact />
     </>
   );

@@ -11,7 +11,7 @@ import { TiShoppingCart } from "react-icons/ti";
 const Services = () => {
   return (
     <section
-      className="bg-gradient-to-r from-one via-gray-900 to-one  h-full"
+      className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]  h-full"
       id="services"
     >
       <h2 className="p-12 text-center uppercase tracking-[8px] text-gray-100 text-2xl lg:pt-6 pb-8">
@@ -20,8 +20,8 @@ const Services = () => {
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
       <div className="text-center mx-4 lg:mx-10 mt-14">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="p-8 bg-third shadow-lg rounded-lg">
-            <SiCloudflarepages className="text-4xl text-blue-500 mb-4 mx-auto" />
+          <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
+            <SiCloudflarepages className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Landing Pages Maestras
             </h3>
@@ -31,8 +31,8 @@ const Services = () => {
               digitales que convierten visitantes en clientes.
             </p>
           </div>
-          <div className="p-8 bg-third shadow-lg rounded-lg">
-            <FaDesktop className="text-4xl text-blue-500 mb-4 mx-auto" />
+          <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
+            <FaDesktop className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Desarrollo Integral de Webapps
             </h3>
@@ -42,8 +42,8 @@ const Services = () => {
               soluciones tecnológicas robustas y escalables.
             </p>
           </div>
-          <div className="p-8 bg-third shadow-lg rounded-lg">
-            <HiDocumentMagnifyingGlass className="text-4xl text-blue-500 mb-4 mx-auto" />
+          <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
+            <HiDocumentMagnifyingGlass className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Consultoría Tecnológica para la Optimización Empresarial
             </h3>
@@ -53,8 +53,8 @@ const Services = () => {
               operativa.
             </p>
           </div>
-          <div className="p-8 bg-third shadow-lg rounded-lg">
-            <TiShoppingCart className="text-4xl text-blue-500 mb-4 mx-auto" />
+          <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
+            <TiShoppingCart className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Gestión de E-commerce
             </h3>
@@ -64,8 +64,8 @@ const Services = () => {
               y la experiencia de usuario, maximizando tus ventas en línea.
             </p>
           </div>
-          <div className="p-8 bg-third shadow-lg rounded-lg">
-            <HiOutlinePresentationChartLine className="text-4xl text-blue-500 mb-4 mx-auto" />
+          <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
+            <HiOutlinePresentationChartLine className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Construcción de Presencia Online Impactante
             </h3>
@@ -76,8 +76,8 @@ const Services = () => {
               internet.
             </p>
           </div>
-          <div className="p-8 bg-third shadow-lg rounded-lg">
-            <SlPresent className="text-4xl text-blue-500 mb-4 mx-auto" />
+          <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
+            <SlPresent className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Servicio personalizado
             </h3>

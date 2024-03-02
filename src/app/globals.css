@@ -15,12 +15,10 @@
 html {
   overflow-x: hidden !important;
   scroll-behavior: smooth;
-
   scroll-padding-top: 6rem;
 }
 body {
   min-height: 100dvh;
-  background: #0f0f0f;
 }
 h1,
 h2,
@@ -63,8 +61,8 @@ p {
 .project-card {
   position: relative;
   overflow: hidden;
-  width: 300px; /* ajusta el tamaño según tus necesidades */
-  height: 200px; /* ajusta el tamaño según tus necesidades */
+  width: 300px;
+  height: 200px;
 }
 
 .project-image {
