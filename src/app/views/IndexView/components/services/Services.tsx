@@ -1,5 +1,12 @@
 import React from "react";
 import { FaDesktop, FaMobileAlt, FaCode } from "react-icons/fa";
+import {
+  HiDocumentMagnifyingGlass,
+  HiOutlinePresentationChartLine,
+} from "react-icons/hi2";
+import { SiCloudflarepages } from "react-icons/si";
+import { SlPresent } from "react-icons/sl";
+import { TiShoppingCart } from "react-icons/ti";
 
 const Services = () => {
   return (
@@ -14,7 +21,7 @@ const Services = () => {
       <div className="text-center mx-4 lg:mx-10 mt-14">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-8 bg-third shadow-lg rounded-lg">
-            <FaMobileAlt className="text-4xl text-blue-500 mb-4 mx-auto" />
+            <SiCloudflarepages className="text-4xl text-blue-500 mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Landing Pages Maestras
             </h3>
@@ -36,7 +43,7 @@ const Services = () => {
             </p>
           </div>
           <div className="p-8 bg-third shadow-lg rounded-lg">
-            <FaCode className="text-4xl text-blue-500 mb-4 mx-auto" />
+            <HiDocumentMagnifyingGlass className="text-4xl text-blue-500 mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Consultoría Tecnológica para la Optimización Empresarial
             </h3>
@@ -47,7 +54,7 @@ const Services = () => {
             </p>
           </div>
           <div className="p-8 bg-third shadow-lg rounded-lg">
-            <FaCode className="text-4xl text-blue-500 mb-4 mx-auto" />
+            <TiShoppingCart className="text-4xl text-blue-500 mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Gestión de E-commerce
             </h3>
@@ -58,7 +65,7 @@ const Services = () => {
             </p>
           </div>
           <div className="p-8 bg-third shadow-lg rounded-lg">
-            <FaCode className="text-4xl text-blue-500 mb-4 mx-auto" />
+            <HiOutlinePresentationChartLine className="text-4xl text-blue-500 mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Construcción de Presencia Online Impactante
             </h3>
@@ -70,7 +77,7 @@ const Services = () => {
             </p>
           </div>
           <div className="p-8 bg-third shadow-lg rounded-lg">
-            <FaDesktop className="text-4xl text-blue-500 mb-4 mx-auto" />
+            <SlPresent className="text-4xl text-blue-500 mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
               Servicio personalizado
             </h3>

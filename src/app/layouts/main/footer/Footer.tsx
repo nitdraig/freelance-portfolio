@@ -4,7 +4,7 @@ import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="h-40 sm:h-[250px] bg-gradient-to-r from-one via-gray-900 to-purple-800">
+    <footer className=" bg-gradient-to-r from-one via-gray-900 to-purple-800">
       <div className="h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
         <h2
           data-aos="zoom-out"
@@ -21,7 +21,7 @@ const Footer = () => {
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
-            <FaLinkedinIn className="text-white hover:text-[#dbdbdb] text-3xl hover:scale-125 cursor-pointer" />
+            <FaLinkedinIn className="text-white  text-3xl hover:scale-125 hover:text-secondary cursor-pointer" />
           </a>
           <a
             data-aos="fade-up"
@@ -30,7 +30,7 @@ const Footer = () => {
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
-            <IoLogoTwitter className=" text-white hover:text-[#dbdbdb] text-3xl hover:scale-125 cursor-pointer" />
+            <IoLogoTwitter className=" text-white  text-3xl hover:scale-125 hover:text-secondary cursor-pointer" />
           </a>
         </div>
         <div className="sm:text-[12px] text-white hover:text-[#dbdbdb]">

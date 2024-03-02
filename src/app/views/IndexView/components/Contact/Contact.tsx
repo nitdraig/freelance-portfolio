@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Swal from "sweetalert2";
@@ -39,13 +39,13 @@ const Contact = () => {
       className="bg-gradient-to-r from-one via-gray-900 to-one h-full text-white pb-10 pt-10"
       id="contact"
     >
-      <div className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-gray-100 text-lg lg:text-2xl lg:pt-3 pt-5 pb-8">
+      <h2 className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-gray-100 text-lg lg:text-2xl lg:pt-3 pt-5 pb-8">
         Contacta conmigo
-      </div>
+      </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
-      <div className="flex justify-between mx-auto max-w-5xl mt-4">
-        <div className="w-full max-w-lg mx-4">
-          <h3 className="mt-3 text-lg">
+      <div className="max-w-5xl flex mx-auto flex-col lg:flex-row  mt-8">
+        <div className="w-full max-w-lg lg:mr-10">
+          <h3 className=" text-2xl font-bold mb-4">
             Cuéntame cómo puedo ayudar al éxito de tu proyecto
           </h3>
           <form onSubmit={onSubmit} className="mt-10">
@@ -74,7 +74,7 @@ const Contact = () => {
                   placeholder=" "
                 />
                 <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
-                  Tu correo electrónico
+                  Tu correo
                 </label>
               </div>
               <div className="relative z-0 col-span-2">
@@ -97,9 +97,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="w-full max-w-lg mx-10">
-          <h2 className="text-2xl font-bold mb-4">Agenda una Videollamada</h2>
-          <p className="text-lg mb-4">
+        <div className="w-full max-w-lg mt-8 mb-4 lg:mt-0 lg:ml-10 text-left">
+          <h3 className="text-2xl font-bold mb-4">Agenda una Videollamada</h3>
+          <p className="text-lg mb-4 ">
             ¡Hablemos sobre tu proyecto! Agenda una videollamada para discutir
             tus necesidades y cómo puedo ayudarte.
           </p>

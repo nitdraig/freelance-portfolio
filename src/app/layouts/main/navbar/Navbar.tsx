@@ -46,7 +46,7 @@ const NavBar = (props: any) => {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       isBlurred={false}
-      className={` lg:h-20 ${
+      className={` lg:h-20   ${
         scrollPosition > 0
           ? `bg-gray-900/80 shadow-md transition`
           : "bg-transparent"
@@ -55,7 +55,7 @@ const NavBar = (props: any) => {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden text-text"
+          className="sm:hidden text-text "
         />
         <NavbarBrand>
           <Link
@@ -120,13 +120,13 @@ const NavBar = (props: any) => {
           </button>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="text-text bg-black/60 ">
+      <NavbarMenu className=" bg-black/60  ">
         <div className="mt-2">
           {menuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`} className="mt-4">
+            <NavbarMenuItem key={`${item}-${index}`} className="mt-4 ">
               <Link
                 color={"primary"}
-                className="w-full text-2xl "
+                className="w-full text-2xl text-text  "
                 href={item.url}
               >
                 {item.title}
