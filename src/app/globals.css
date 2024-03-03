@@ -45,8 +45,12 @@ p {
 
 .floating-image {
   animation: floatAnimation 5s ease-in-out infinite alternate;
+  -webkit-user-drag: none;
 }
-
+.diagram_img {
+  animation: floatAnimation 5s ease-in-out infinite alternate;
+  -webkit-user-drag: none;
+}
 @keyframes floatAnimation {
   0% {
     transform: translateY(0);

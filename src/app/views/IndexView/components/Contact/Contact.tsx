@@ -103,10 +103,11 @@ const Contact = () => {
             ¡Hablemos sobre tu proyecto! Agenda una videollamada para discutir
             tus necesidades y cómo puedo ayudarte.
           </p>
+
           <a
             href="https://calendly.com/nitdraig"
             target="_blank"
-            className="text-2xl  flex font-bold items-center text-[#fff] hover:text-[#6A0DAD]"
+            className="text-2xl   flex font-bold items-center text-[#fff] hover:text-[#6A0DAD]"
           >
             Agenda ahora <BsArrowRight className="ml-2" />
           </a>

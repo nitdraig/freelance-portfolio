@@ -1,4 +1,5 @@
 "use client";
+import { Image } from "@nextui-org/react";
 import React, { useState } from "react";
 
 const About = () => {
@@ -26,9 +27,9 @@ const About = () => {
     >
       <div className="flex justify-center items-center">
         <div className="w-full">
-          <div className="lg:p-12 text-center lg:uppercase tracking-[2px] lg:tracking-[8px] text-white text-lg lg:text-2xl lg:pt-3 pt-5 pb-4 lg:pb-8">
+          <h2 className="lg:p-12 text-center lg:uppercase tracking-[2px] text-2xl lg:text-3xl  lg:tracking-[8px] text-white  lg:pt-3 pt-5 pb-4 lg:pb-8">
             Transformando ideas en experiencias digitales excepcionales
-          </div>
+          </h2>
           <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
           <div
             className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-8"
@@ -58,10 +59,10 @@ const About = () => {
               }}
               onMouseLeave={handleMouseLeave}
             >
-              <img
-                src="profile4.png"
+              <Image
+                src="/profile4.png"
                 alt="Making solutions by Agustín Avellaneda"
-                className="w-[90%] lg:w-full floating-image"
+                className="w-full  lg:w-full floating-image "
                 onMouseEnter={() => setIsHovered(true)}
               />
             </div>

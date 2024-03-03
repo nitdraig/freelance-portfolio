@@ -14,7 +14,7 @@ const Services = () => {
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]  h-full"
       id="services"
     >
-      <h2 className="p-12 text-center uppercase tracking-[8px] text-gray-100 text-2xl lg:pt-6 pb-8">
+      <h2 className="p-12 text-center uppercase tracking-[8px] text-gray-100 text-2xl lg:text-3xl  lg:pt-6 pb-8">
         Servicios
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>

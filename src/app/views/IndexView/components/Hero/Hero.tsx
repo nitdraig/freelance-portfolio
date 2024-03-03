@@ -60,15 +60,15 @@ function Hero() {
             </li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <a
-            className="text-white bg-[#6A0DAD] lg:text-2xl m-3 lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
+            className="text-white bg-[#6A0DAD] lg:text-lg m-3 lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
             href="/#aboutme"
           >
             Acerca de mí
           </a>
           <a
-            className="text-white bg-[#6A0DAD] lg:text-2xl m-3  lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
+            className="text-white bg-[#6A0DAD] lg:text-lg m-3  lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
             href="/#services"
           >
             Mis servicios

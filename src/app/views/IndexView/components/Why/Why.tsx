@@ -1,3 +1,4 @@
+import { Image } from "@nextui-org/react";
 import React from "react";
 import { TfiWrite } from "react-icons/tfi";
 
@@ -31,7 +32,11 @@ const Why = () => {
           </ul>
           <div>
             <div className="mb-4 mt-4 flex justify-center items-center">
-              <img src="/4.svg" alt="Diagrama de flujo" className="w-full  " />
+              <Image
+                src="/4.svg"
+                alt="Diagrama de flujo"
+                className="diagram_img w-full"
+              />
             </div>
             <p className="text-2xl text-white mb-8 font-semibold">
               En este diagrama te muestro mi proceso de acompañamiento para
