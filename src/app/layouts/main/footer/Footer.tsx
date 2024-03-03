@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className=" bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]"
+      className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]"
     >
-      <div className="h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
+      <div className="h-full flex flex-col gap-4 items-center justify-between lg:p-6 p-8">
         <h2
           data-aos="zoom-out"
           className=" text-gray-300 font-bold text-5xl sm:text-3xl pt-5"
@@ -36,7 +36,7 @@ const Footer = () => {
             <IoLogoTwitter className="text-white  text-3xl hover:scale-125 hover:text-[#6A0DAD] cursor-pointer" />
           </a>
         </div>
-        <div className="lg:text-md text-sm text-center text-white hover:text-[#dbdbdb]">
+        <div className="lg:text-md text-sm text-center hover:scale-110 text-white hover:text-[#dbdbdb]">
           <a
             href="https://www.linkedin.com/in/avellaneda-agustín-tns"
             target="_blank"

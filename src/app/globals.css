@@ -47,6 +47,9 @@ p {
   animation: floatAnimation 5s ease-in-out infinite alternate;
   -webkit-user-drag: none;
 }
+.image_modal {
+  -webkit-user-drag: none;
+}
 .diagram_img {
   animation: floatAnimation 5s ease-in-out infinite alternate;
   -webkit-user-drag: none;

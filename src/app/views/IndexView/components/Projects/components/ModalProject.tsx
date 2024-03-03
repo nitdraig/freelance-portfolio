@@ -7,6 +7,7 @@ import {
   ModalFooter,
   Button,
   useDisclosure,
+  Image,
 } from "@nextui-org/react";
 import { BsArrowUpRightSquare, BsGithub } from "react-icons/bs";
 import Link from "next/link";
@@ -29,6 +30,9 @@ export default function ModalProject({
         Leer más
       </Button>
       <Modal
+        placement={"center"}
+        scrollBehavior={"inside"}
+        size={"xl"}
         backdrop="blur"
         isOpen={isOpen}
         onOpenChange={onClose}
@@ -58,7 +62,11 @@ export default function ModalProject({
             {projectName}
           </ModalHeader>
           <ModalBody>
-            <img src={projectImg} className="rounded-lg" alt={projectName} />
+            <Image
+              src={projectImg}
+              className="image_modal rounded-lg"
+              alt={projectName}
+            />
             <p className="text-white">{projectDescription}</p>
           </ModalBody>
           <ModalFooter>

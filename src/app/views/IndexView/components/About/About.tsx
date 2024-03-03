@@ -36,7 +36,9 @@ const About = () => {
             onMouseMove={handleMouseMove}
           >
             <div className="lg:w-3/5 text-center lg:text-left lg:mt-0 mt-6">
-              <p className="text-white text-3xl font-bold mb-4">Soy Agustín</p>
+              <p className="text-white lg:text-3xl text-2xl font-bold mb-4">
+                Me llamo Agustín
+              </p>
               <p className="text-white text-lg ">
                 Un apasionado Fullstack Web Developer y Project Manager con
                 experiencia en la creación de soluciones web innovadoras y de

@@ -9,28 +9,39 @@ const Why = () => {
       id="whyme"
     >
       <h2 className="p-12 text-center uppercase tracking-[8px] text-white text-2xl lg:text-3xl  lg:pt-6 pb-8">
-        <span className="bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent animate-shine">
+        <span className="bg-gradient-to-r from-purple-400 to-gray-300 bg-clip-text text-transparent animate-shine">
           ¿Por qué elegirme?
         </span>
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
-      <div className=" mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-2xl mt-10 text-white mb-6">
-            En un mercado saturado de opciones, sé que la elección del socio
-            adecuado para tu proyecto digital puede ser abrumadora. <br />
-            Permíteme explicarte por qué mi enfoque y compromiso marcan la
-            diferencia:
-          </p>
-          <h3 className="lg:text-2xl text-3xl text-purple-400 mb-6">SAPQS</h3>
-          <ul className="text-lg text-white">
-            <li>Simplicity - Simplicidad</li>
-            <li>Approach - Enfoque</li>
-            <li>Personalization- Personalización</li>
-            <li>Quality - Calidad</li>
-            <li>Success - Éxito</li>
-          </ul>
-          <div>
+      <div className="flex flex-col  lg:flex-row  mt-8">
+        <div className="w-full lg:mx-10">
+          <div className="grid gap-6 mx-8 sm:grid-cols-2">
+            <div className="relative z-0 text-center lg:text-left">
+              <h3 className="lg:text-2xl text-3xl uppercase text-purple-400 ">
+                Mi enfoque
+              </h3>
+              <p className="lg:text-2xl text-lg  mt-6 text-white mb-6">
+                En un mercado saturado de opciones, sé que la elección del socio
+                adecuado para tu proyecto digital puede ser abrumadora. <br />
+                Permíteme explicarte por qué mi enfoque y compromiso marcan la
+                diferencia:
+              </p>
+            </div>
+            <div className="lg:mx-auto text-center lg:text-left lg:mb-0 mb-6 ">
+              <h3 className="lg:text-2xl text-3xl text-purple-400 mb-6">
+                SAPQS
+              </h3>
+              <ul className="lg:text-2xl text-lg text-white">
+                <li>Simplicity - Simplicidad</li>
+                <li>Approach - Enfoque</li>
+                <li>Personalization- Personalización</li>
+                <li>Quality - Calidad</li>
+                <li>Success - Éxito</li>
+              </ul>
+            </div>
+          </div>
+          <div className="lg:mx-10 mx-4">
             <div className="mb-4 mt-4 flex justify-center items-center">
               <Image
                 src="/4.svg"
@@ -38,19 +49,19 @@ const Why = () => {
                 className="diagram_img w-full"
               />
             </div>
-            <p className="text-2xl text-white mb-8 font-semibold">
+            <p className="lg:text-3xl text-2xl text-white mb-8 text-center font-semibold">
               En este diagrama te muestro mi proceso de acompañamiento para
               hacer que tu proyecto tenga el éxito y la calidad más alta
               posible.
             </p>
-            <div className="text-center flex justify-center">
+            {/* <div className="text-center flex justify-center">
               <a
                 href="/#contact"
                 className="text-lg bg-gray-200 rounded-md px-10 py-2 flex font-bold items-center text-[#0c0c0c] hover:text-[#6A0DAD]"
               >
-                Presupuestar <TfiWrite className="ml-2" />
+                 <TfiWrite className="ml-2" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
