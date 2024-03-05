@@ -1,8 +1,11 @@
+import { useLanguage } from "@/app/components/LanguageContext";
+import translations from "@/app/locals/languages";
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
+  const { language } = useLanguage();
   return (
     <footer
       id="footer"
@@ -13,7 +16,7 @@ const Footer = () => {
           data-aos="zoom-out"
           className=" text-gray-300 font-bold text-5xl sm:text-3xl pt-5"
         >
-          Hablemos
+          {translations[language].talk}
         </h2>
         <span className="h-[1.1px] right-0 absolute w-full bg-gray-300 block"></span>
         <div className=" flex items-center justify-center gap-8 sm:gap-5">

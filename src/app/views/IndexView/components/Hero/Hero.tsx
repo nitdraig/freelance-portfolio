@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect } from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";

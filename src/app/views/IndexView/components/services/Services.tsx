@@ -1,5 +1,7 @@
+import { useLanguage } from "@/app/components/LanguageContext";
+import translations from "@/app/locals/languages";
 import React from "react";
-import { FaDesktop, FaMobileAlt, FaCode } from "react-icons/fa";
+import { FaDesktop } from "react-icons/fa";
 import {
   HiDocumentMagnifyingGlass,
   HiOutlinePresentationChartLine,
@@ -9,13 +11,14 @@ import { SlPresent } from "react-icons/sl";
 import { TiShoppingCart } from "react-icons/ti";
 
 const Services = () => {
+  const { language } = useLanguage();
   return (
     <section
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]  h-full"
       id="services"
     >
       <h2 className="p-12 text-center uppercase tracking-[8px] text-gray-100 text-2xl lg:text-3xl  lg:pt-6 pb-8">
-        Servicios
+        {translations[language].service}
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
       <div className="text-center mx-4 lg:mx-10 mt-14">
@@ -23,67 +26,55 @@ const Services = () => {
           <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
             <SiCloudflarepages className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
-              Landing Pages Maestras
+              {translations[language].serviceName1}
             </h3>
             <p className="text-black">
-              Impulsa tu presencia en línea con landing pages de vanguardia y
-              altamente optimizadas para la conversión. Creando experiencias
-              digitales que convierten visitantes en clientes.
+              {translations[language].serviceDescription1}
             </p>
           </div>
           <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
             <FaDesktop className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
-              Desarrollo Integral de Webapps
+              {translations[language].serviceName2}
             </h3>
             <p className="text-black">
-              Construimos webapps completas desde cero, integrando a la
-              perfección tanto el backend como el frontend para ofrecerte
-              soluciones tecnológicas robustas y escalables.
+              {translations[language].serviceDescription2}
             </p>
           </div>
           <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
             <HiDocumentMagnifyingGlass className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
-              Consultoría Tecnológica para la Optimización Empresarial
+              {translations[language].serviceName3}
             </h3>
             <p className="text-black">
-              Transforma tu negocio con una consultoría de TI. Implemención de
-              tecnología para optimizar procesos diarios y mejorar la eficiencia
-              operativa.
+              {translations[language].serviceDescription3}
             </p>
           </div>
           <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
             <TiShoppingCart className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
-              Gestión de E-commerce
+              {translations[language].serviceName4}
             </h3>
             <p className="text-black">
-              Crea y optimiza tu tienda en línea con soluciones de e-commerce.
-              Desde la configuración inicial hasta la optimización del catálogo
-              y la experiencia de usuario, maximizando tus ventas en línea.
+              {translations[language].serviceDescription4}
             </p>
           </div>
           <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
             <HiOutlinePresentationChartLine className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
-              Construcción de Presencia Online Impactante
+              {translations[language].serviceName5}
             </h3>
             <p className="text-black">
-              Optimiza tu presencia en línea. Desde la gestión de dominios hasta
-              la optimización SEO y el despliegue en Google. Aumenta tu
-              visibilidad, fortalece tu marca y alcanza nuevos horizontes en
-              internet.
+              {translations[language].serviceDescription5}
             </p>
           </div>
           <div className="p-8 bg-[#C0C0C0] shadow-lg rounded-lg">
             <SlPresent className="text-4xl text-[#6A0DAD] mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-4">
-              Servicio personalizado
+              {translations[language].serviceName6}
             </h3>
             <p className="text-black">
-              Desarrollo acorde a tus necesidades, las de tu proyecto y tu
-              economia.
+              {translations[language].serviceDescription6}
             </p>
           </div>
         </div>

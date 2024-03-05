@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import ModalProject from "./ModalProject";
+import { useLanguage } from "@/app/components/LanguageContext";
 
 const Box = ({
   projectName,
@@ -11,7 +12,7 @@ const Box = ({
   projectStack,
 }: any) => {
   const [isHovered, setIsHovered] = useState(false);
-
+  const { language } = useLanguage();
   const handleMouseEnter = () => {
     setIsHovered(true);
   };

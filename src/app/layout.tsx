@@ -60,11 +60,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <link rel="canonical" href="https://www.agustin.top" />
-      <body className={raleway.className}>
-        <NavBar />
-        {children}
-        <Footer />
-      </body>
+      <body className={raleway.className}>{children}</body>
     </html>
   );
 }

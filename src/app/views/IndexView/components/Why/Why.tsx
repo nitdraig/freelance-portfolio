@@ -1,8 +1,10 @@
+import { useLanguage } from "@/app/components/LanguageContext";
+import translations from "@/app/locals/languages";
 import { Image } from "@nextui-org/react";
 import React from "react";
-import { TfiWrite } from "react-icons/tfi";
 
 const Why = () => {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <section
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F] pt-10 w-screen"
@@ -10,7 +12,7 @@ const Why = () => {
     >
       <h2 className="p-12 text-center uppercase tracking-[8px] text-white text-2xl lg:text-3xl  lg:pt-6 pb-8">
         <span className="bg-gradient-to-r from-purple-400 to-gray-300 bg-clip-text text-transparent animate-shine">
-          ¿Por qué elegirme?
+          {translations[language].whySectionTitle}
         </span>
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
@@ -19,13 +21,10 @@ const Why = () => {
           <div className="grid gap-6 mx-8 sm:grid-cols-2">
             <div className="relative z-0 text-center lg:text-left">
               <h3 className="lg:text-2xl text-3xl uppercase text-purple-400 ">
-                Mi enfoque
+                {translations[language].whySectionSubTitle1}
               </h3>
               <p className="lg:text-2xl text-lg  mt-6 text-white mb-6">
-                En un mercado saturado de opciones, sé que la elección del socio
-                adecuado para tu proyecto digital puede ser abrumadora. <br />
-                Permíteme explicarte por qué mi enfoque y compromiso marcan la
-                diferencia:
+                {translations[language].whySectionDescription1}
               </p>
             </div>
             <div className="lg:mx-auto text-center lg:text-left lg:mb-0 mb-6 ">
@@ -44,15 +43,13 @@ const Why = () => {
           <div className="lg:mx-10 mx-4">
             <div className="mb-4 mt-4 flex justify-center items-center">
               <Image
-                src="/4.svg"
+                src={translations[language].whyImg}
                 alt="Diagrama de flujo"
                 className="diagram_img w-full"
               />
             </div>
             <p className="lg:text-3xl text-2xl text-white mb-8 text-center font-semibold">
-              En este diagrama te muestro mi proceso de acompañamiento para
-              hacer que tu proyecto tenga el éxito y la calidad más alta
-              posible.
+              {translations[language].whySectionDescription3}
             </p>
             {/* <div className="text-center flex justify-center">
               <a

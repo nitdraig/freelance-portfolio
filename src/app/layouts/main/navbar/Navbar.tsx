@@ -1,22 +1,21 @@
-"use client";
 import Link from "next/link";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Button,
   NavbarMenuItem,
   NavbarMenu,
   NavbarMenuToggle,
 } from "@nextui-org/react";
-import { GrBookmark } from "react-icons/gr";
+import { useLanguage } from "@/app/components/LanguageContext";
+import translations from "../../../locals/languages";
 
 export const NavBar = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
-
+  const { language, toggleLanguage } = useLanguage();
   const toggleNav = (name: any) => {
     setIsOpen(!isOpen);
     setActiveIndex(name === activeIndex ? null : name);
@@ -36,13 +35,6 @@ export const NavBar = (props: any) => {
   }, []);
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = [
-    { title: "Acerca de mí", url: "/#aboutme" },
-    { title: "Proyectos", url: "/#projects" },
-    { title: "Servicios", url: "/#services" },
-    { title: "Blog", url: "/#" },
-    { title: "Contactame", url: "/#contact" },
-  ];
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
@@ -56,7 +48,6 @@ export const NavBar = (props: any) => {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden  "
         ></NavbarMenuToggle>
-
         <NavbarBrand>
           <Link
             href="/#"
@@ -73,7 +64,7 @@ export const NavBar = (props: any) => {
             href="/#aboutme"
             className="text-white text-lg  uppercase hover:text-[#6A0DAD]"
           >
-            Acerca de mí
+            {translations[language].about}
           </a>
         </NavbarItem>
         <NavbarItem>
@@ -81,7 +72,7 @@ export const NavBar = (props: any) => {
             href="/#projects"
             className="text-white text-lg  uppercase hover:text-[#6A0DAD]"
           >
-            Proyectos
+            {translations[language].projects}
           </a>
         </NavbarItem>
         <NavbarItem>
@@ -89,7 +80,7 @@ export const NavBar = (props: any) => {
             href="/#services"
             className="text-white text-lg  uppercase hover:text-[#6A0DAD]"
           >
-            Servicios
+            {translations[language].service}
           </a>
         </NavbarItem>
         <NavbarItem>
@@ -108,21 +99,21 @@ export const NavBar = (props: any) => {
             href="/#contact"
             className="bg-gray-200  text-[1rem] text-black px-8 py-2 rounded-lg font-bold hover:text-[#6A0DAD] md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
           >
-            Contacta conmigo
+            {translations[language].contact}
           </a>
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">
           <button
             className="bg-[#6A0DAD] text-[1rem] text-white px-4 py-2 rounded-lg font-bold hover:text-[#C0C0C0] md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
-            // onClick={toggleLanguage}
+            onClick={toggleLanguage}
           >
-            Es
+            {translations[language].toggleLanguage}
           </button>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className=" bg-black/60  ">
         <div className="mt-2">
-          {menuItems.map((item, index) => (
+          {translations[language].menuItems.map((item: any, index: any) => (
             <NavbarMenuItem key={`${item}-${index}`} className="mt-4 ">
               <Link
                 color={"primary"}
@@ -133,6 +124,12 @@ export const NavBar = (props: any) => {
               </Link>
             </NavbarMenuItem>
           ))}
+          <button
+            className="bg-[#6A0DAD] mt-6 text-[1rem] text-white px-4 py-2 rounded-lg font-bold hover:text-[#C0C0C0] md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+            onClick={toggleLanguage}
+          >
+            {translations[language].toggleLanguage}
+          </button>
         </div>
       </NavbarMenu>
     </Navbar>

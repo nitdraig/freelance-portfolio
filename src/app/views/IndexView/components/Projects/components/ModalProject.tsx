@@ -11,6 +11,8 @@ import {
 } from "@nextui-org/react";
 import { BsArrowUpRightSquare, BsGithub } from "react-icons/bs";
 import Link from "next/link";
+import { useLanguage } from "@/app/components/LanguageContext";
+import translations from "@/app/locals/languages";
 
 export default function ModalProject({
   projectImg,
@@ -20,14 +22,14 @@ export default function ModalProject({
   projectLinkDeploy,
 }: any) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+  const { language } = useLanguage();
   return (
     <>
       <Button
         className=" bg-[#6A0DAD] mt-2 hover:bg-gray-200 font-bold hover:text-[#6A0DAD] text-white  rounded-lg px-4 py-2"
         onPress={onOpen}
       >
-        Leer más
+        {translations[language].projectMoreBtn}
       </Button>
       <Modal
         placement={"center"}
@@ -89,7 +91,7 @@ export default function ModalProject({
                 className="bg-[#bd2f2f]  hover:bg-gray-200 hover:text-[#6A0DAD] text-white font-semibold  rounded-lg px-4 py-2"
                 onPress={onClose}
               >
-                Cerrar
+                {translations[language].projectMoreClose}
               </Button>
             </div>
           </ModalFooter>
