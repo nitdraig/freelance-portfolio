@@ -26,7 +26,11 @@ const About = () => {
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F] h-full"
       id="aboutme"
     >
-      <div className="flex justify-center items-center">
+      <div
+        className="flex justify-center items-center"
+        data-aos="fade-down"
+        data-aos-duration="3000"
+      >
         <div className="w-full">
           <h2 className="lg:p-12 text-center lg:uppercase tracking-[2px] text-2xl lg:text-3xl  lg:tracking-[8px] text-white  lg:pt-3 pt-5 pb-4 lg:pb-8">
             {translations[language].aboutMe}

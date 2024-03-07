@@ -2,20 +2,25 @@ import React, { useEffect } from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import translations from "@/app/locals/languages";
+import { useLanguage } from "@/app/components/LanguageContext";
 
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ["Fullstack Web developer", "Project Managment", "QA-Tester"],
+    words: ["Quality", "Collaboration", "Management"],
     loop: true,
     delaySpeed: 2000,
   });
-
+  const { language } = useLanguage();
   return (
     <section
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F]"
       id="home"
     >
-      <div className="  h-screen  -mt-20 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+      <div
+        data-aos="zoom-out-up"
+        className="h-screen  -mt-20 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden"
+      >
         <img
           className="relative rounded-full h-32 w-32 mx--auto object-cover"
           alt="perfil"
@@ -26,7 +31,7 @@ function Hero() {
             Avellaneda Agustín
           </h1>
           <h3 className="uppercase lg:text-2xl font-serif text-lg text-white lg:mt-2 tracking-[2px]">
-            Programador Web Freelance
+            {translations[language].hero}
           </h3>
           <h3 className="text-1xl text-white lg:text-3xl font-semibold lg:mt-4 mt-4 px-5 lg:px-10">
             <span className="mr-3 text-2xl">{text}</span>
@@ -64,13 +69,13 @@ function Hero() {
             className="text-white bg-[#6A0DAD] lg:text-lg m-3 lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
             href="/#aboutme"
           >
-            Acerca de mí
+            {translations[language].heroBtn1}
           </a>
           <a
             className="text-white bg-[#6A0DAD] lg:text-lg m-3  lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
             href="/#services"
           >
-            Mis servicios
+            {translations[language].heroBtn2}
           </a>
         </div>
       </div>

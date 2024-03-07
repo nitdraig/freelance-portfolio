@@ -26,6 +26,8 @@ const Box = ({
       className="relative lg:w-1/4 md:w-1/2 w-80 h-56 bg-gray-800 shadow-lg overflow-hidden float-left mb-4"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      data-aos="flip-right"
+      data-aos-duration="1000"
     >
       <img
         src={projectImg}

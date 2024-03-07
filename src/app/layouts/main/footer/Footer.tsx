@@ -21,8 +21,6 @@ const Footer = () => {
         <span className="h-[1.1px] right-0 absolute w-full bg-gray-300 block"></span>
         <div className=" flex items-center justify-center gap-8 sm:gap-5">
           <a
-            data-aos="fade-up"
-            data-aos-duration="1000"
             href="https://www.linkedin.com/in/avellaneda-agustín-tns"
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"
@@ -30,8 +28,6 @@ const Footer = () => {
             <FaLinkedinIn className="text-white  text-3xl hover:scale-125 hover:text-[#6A0DAD] cursor-pointer" />
           </a>
           <a
-            data-aos="fade-up"
-            data-aos-duration="1200"
             href="https://twitter.com/nitdraig"
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"

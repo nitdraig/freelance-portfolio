@@ -1,5 +1,7 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -10,7 +12,11 @@ import { LanguageProvider } from "@/app/components/LanguageContext";
 import { NavBar } from "@/app/layouts/main/navbar/Navbar";
 import Footer from "@/app/layouts/main/footer/Footer";
 
-const IndexView = ({ Component, pageProps }: any) => {
+const IndexView = ({ Component, pageProps }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <LanguageProvider>

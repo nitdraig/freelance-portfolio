@@ -44,7 +44,11 @@ const Contact = () => {
         {translations[language].contactWithMe}
       </h2>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
-      <div className="max-w-5xl flex  lg:mx-auto mx-4 flex-col lg:flex-row  mt-8">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="max-w-5xl flex  lg:mx-auto mx-4 flex-col lg:flex-row  mt-8"
+      >
         <div className="w-full max-w-lg lg:mr-10">
           <h3 className=" text-2xl font-bold mb-4">
             {translations[language].contactText}

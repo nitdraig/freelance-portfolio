@@ -19,7 +19,7 @@ const Projects = () => {
           {translations[language].myProjectsDescription}
         </p>
         <div className="mt-6 w-max-[1349px]  ">
-          <div className="flex flex-wrap justify-center ">
+          <div className="flex flex-wrap justify-center" data-aos="zoom-in">
             {translations[language].projectsLists.map(
               (project: any, i: any) => (
                 <Box key={i} {...project} />

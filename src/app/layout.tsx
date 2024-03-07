@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 
-import Footer from "./layouts/main/footer/Footer";
-import { NavBar } from "./layouts/main/navbar/Navbar";
-
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -35,9 +32,7 @@ export const metadata: Metadata = {
     description:
       "Avellaneda Agustín, Desarrollador web Fullstack y QA-Tester con experiencia en el desarrollo de páginas web modernas, interactivas y robustas. Mi objetivo es utilizar mi experiencia técnica y mis habilidades de liderazgo para guiar equipos ágiles en la entrega de soluciones de software de alta calidad.",
     creator: "Avellaneda Agustín",
-    images: [
-      "https://res.cloudinary.com/draig/image/upload/v1694093622/portolio-personal/fkuuc7srs3ystt4h10tb.png",
-    ],
+    images: ["./og.png"],
   },
 
   robots: {
@@ -47,8 +42,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    images:
-      "https://res.cloudinary.com/draig/image/upload/v1694093622/portolio-personal/fkuuc7srs3ystt4h10tb.png",
+    images: "./og.png",
   },
 };
 

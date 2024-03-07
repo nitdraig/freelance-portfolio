@@ -1,6 +1,9 @@
 const translations: any = {
   es: {
     about: "Yo",
+    hero: "PROGRAMADOR WEB FREELANCE",
+    heroBtn1: "Acerca de mí",
+    heroBtn2: "Mis Servicios",
     linkCV:
       "https://drive.google.com/file/d/1HzcGwSl9G62ptLaB85R9X7Vo1lJZfnrw/view?usp=sharing",
     projects: "Proyectos",
@@ -198,6 +201,9 @@ const translations: any = {
   },
   en: {
     about: "Me",
+    hero: "FREELANCE WEB DEVELOPER",
+    heroBtn1: "About Me",
+    heroBtn2: "My Services",
     linkCV:
       "https://drive.google.com/file/d/1bWcJKGVUvVGBz4dtA7MAu-FqNHDD4Duv/view?usp=sharing",
     projects: "Projects",
