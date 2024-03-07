@@ -32,6 +32,7 @@ const Box = ({
       <img
         src={projectImg}
         alt={projectName}
+        loading="lazy"
         className="w-full h-full object-cover transition-transform duration-300 transform hover:scale-105"
         style={{ maxWidth: "100%", maxHeight: "100%" }}
       />

@@ -53,6 +53,7 @@ const Why = () => {
                 src={translations[language].whyImg}
                 alt="Diagrama de flujo"
                 className="diagram_img w-full"
+                loading="lazy"
               />
             </div>
             <div data-aos="fade-left" data-aos-duration="2000">
