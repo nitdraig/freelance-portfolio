@@ -45,7 +45,11 @@ function Hero() {
             className=" flex gap-5"
           >
             <li>
-              <a href="https://www.github.com/nitdraig" target="_blank">
+              <a
+                href="https://www.github.com/nitdraig"
+                aria-hidden="true"
+                target="_blank"
+              >
                 <AiFillGithub className="text-white h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 hover:text-[#6A0DAD]" />
               </a>
             </li>
@@ -53,6 +57,7 @@ function Hero() {
               <a
                 href="https://www.linkedin.com/in/avellaneda-agustín-tns"
                 target="_blank"
+                aria-hidden="true"
               >
                 <FaLinkedinIn className="text-white h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 hover:text-[#6A0DAD] " />
               </a>
@@ -68,12 +73,14 @@ function Hero() {
           <a
             className="text-white bg-[#6A0DAD] lg:text-lg m-3 lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
             href="/#aboutme"
+            aria-hidden="true"
           >
             {translations[language].heroBtn1}
           </a>
           <a
             className="text-white bg-[#6A0DAD] lg:text-lg m-3  lg:m-10 hover:bg-gray-200 hover:text-[#6A0DAD] rounded-lg px-4 py-2"
             href="/#services"
+            aria-hidden="true"
           >
             {translations[language].heroBtn2}
           </a>

@@ -63,6 +63,7 @@ const Why = () => {
             </div>
             {/* <div className="text-center flex justify-center">
               <a
+              aria-hidden="true"
                 href="/#contact"
                 className="text-lg bg-gray-200 rounded-md px-10 py-2 flex font-bold items-center text-[#0c0c0c] hover:text-[#6A0DAD]"
               >

@@ -120,6 +120,7 @@ const Contact = () => {
           <a
             href="https://calendly.com/nitdraig"
             target="_blank"
+            aria-hidden="true"
             className="text-2xl   flex font-bold items-center text-[#fff] hover:text-[#6A0DAD]"
           >
             {translations[language].contactText5}

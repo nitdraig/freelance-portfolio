@@ -61,6 +61,7 @@ export const NavBar = (props: any) => {
       <NavbarContent className="hidden sm:flex gap-4 " justify="center">
         <NavbarItem>
           <a
+            aria-hidden="true"
             href="/#aboutme"
             className="text-white text-lg  uppercase hover:text-[#6A0DAD]"
           >
@@ -69,6 +70,7 @@ export const NavBar = (props: any) => {
         </NavbarItem>
         <NavbarItem>
           <a
+            aria-hidden="true"
             href="/#projects"
             className="text-white text-lg  uppercase hover:text-[#6A0DAD]"
           >
@@ -77,6 +79,7 @@ export const NavBar = (props: any) => {
         </NavbarItem>
         <NavbarItem>
           <a
+            aria-hidden="true"
             href="/#services"
             className="text-white text-lg  uppercase hover:text-[#6A0DAD]"
           >
@@ -85,6 +88,7 @@ export const NavBar = (props: any) => {
         </NavbarItem>
         <NavbarItem>
           <a
+            aria-hidden="true"
             href="https://es.blog.agustin.top"
             target="_blank"
             className="text-white text-lg uppercase hover:text-[#6A0DAD]"
@@ -96,6 +100,7 @@ export const NavBar = (props: any) => {
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <a
+            aria-hidden="true"
             href="/#contact"
             className="bg-gray-200  text-[1rem] text-black px-8 py-2 rounded-lg font-bold hover:text-[#6A0DAD] md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
           >
@@ -117,6 +122,7 @@ export const NavBar = (props: any) => {
             <NavbarMenuItem key={`${item}-${index}`} className="mt-4 ">
               <Link
                 color={"primary"}
+                aria-hidden="true"
                 className="w-full text-2xl text-white  "
                 href={item.url}
               >
