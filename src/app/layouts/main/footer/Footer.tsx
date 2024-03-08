@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="h-full flex flex-col gap-4 items-center justify-between lg:p-6 p-8">
         <h2
           data-aos="zoom-out"
-          className=" text-gray-300 font-bold text-5xl sm:text-3xl pt-5"
+          className=" text-gray-300 font-bold lg:text-5xl text-3xl pt-5"
         >
           {translations[language].talk}
         </h2>

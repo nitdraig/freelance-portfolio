@@ -18,10 +18,7 @@ const Why = () => {
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
       <div className="flex flex-col  lg:flex-row  mt-8">
         <div className="w-full lg:mx-10">
-          <div
-            className="grid gap-6 mx-8 sm:grid-cols-2"
-            data-aos="fade-down-left"
-          >
+          <div className="grid gap-6 mx-8 sm:grid-cols-2" data-aos="fade-up">
             <div className="relative z-0 text-center lg:text-left">
               <h3 className="lg:text-2xl text-3xl uppercase text-purple-400 ">
                 {translations[language].whySectionSubTitle1}
@@ -46,7 +43,7 @@ const Why = () => {
           <div className="lg:mx-10 mx-4">
             <div
               className="mb-4 mt-4 flex justify-center items-center"
-              data-aos="fade-right"
+              data-aos="flip-left"
               data-aos-duration="2000"
             >
               <Image
@@ -56,7 +53,7 @@ const Why = () => {
                 loading="lazy"
               />
             </div>
-            <div data-aos="fade-left" data-aos-duration="2000">
+            <div data-aos="flip-right" data-aos-duration="2000">
               <p className="lg:text-3xl text-2xl text-white mb-8 text-center font-semibold">
                 {translations[language].whyDescription3}
               </p>
