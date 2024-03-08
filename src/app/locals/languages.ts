@@ -301,6 +301,28 @@ const translations: any = {
         projectLinkDeploy: "https://templatebaber.netlify.app/",
         projectStack: "Next.js, tailwind, and GitHub.",
       },
+
+      {
+        projectName: "Personal Blog",
+        projectDescription:
+          "A personal blog to tell my experiences, some progress, opinions and various things related to the IT world and my time in it, now available in Spanish and English. Built in Nextjs with tailwind.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1699054217/portolio-personal/hvc15pkogv8riltmvxy3.png",
+        projectLinkGit: "",
+        projectLinkDeploy: "https://es.blog.agustin.top",
+        projectStack: "Next.js, tailwind, GitHub and markdown.",
+      },
+      {
+        projectName: "FER - CFO AI Asistent",
+        projectDescription:
+          "A fullstack website built in nextjs on the front-end, tailwind for styles, express on the back-end and mongoDB to store chat interactions, makes use of the PaLM API for queries in chat format. The API is configured to act as a CFO who helps startups and entrepreneurs. Only responds to talks in English.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1694050182/portolio-personal/cltghxlaarfsj4yck4bv.webp",
+        projectLinkGit: "https://github.com/nitdraig",
+        projectLinkDeploy: "https://cfobot-fe.vercel.app",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, and GitHub.",
+      },
       {
         projectName: "Fuddy - App",
         projectDescription:
@@ -333,39 +355,6 @@ const translations: any = {
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
           "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, Markdown, GitHub y Vercel.",
-      },
-
-      {
-        projectName: "Personal Blog",
-        projectDescription:
-          "A personal blog to tell my experiences, some progress, opinions and various things related to the IT world and my time in it, now available in Spanish and English. Built in Nextjs with tailwind.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1699054217/portolio-personal/hvc15pkogv8riltmvxy3.png",
-        projectLinkGit: "",
-        projectLinkDeploy: "https://es.blog.agustin.top",
-        projectStack: "Next.js, tailwind, GitHub and markdown.",
-      },
-      {
-        projectName: "FER - CFO AI Asistent",
-        projectDescription:
-          "A fullstack website built in nextjs on the front-end, tailwind for styles, express on the back-end and mongoDB to store chat interactions, makes use of the PaLM API for queries in chat format. The API is configured to act as a CFO who helps startups and entrepreneurs. Only responds to talks in English.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1694050182/portolio-personal/cltghxlaarfsj4yck4bv.webp",
-        projectLinkGit: "https://github.com/nitdraig",
-        projectLinkDeploy: "https://cfobot-fe.vercel.app",
-        projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, and GitHub.",
-      },
-      {
-        projectName: "Fuddy - AI App",
-        projectDescription:
-          "I collaborated in the direction of a team of 6 people, as a project manager and developer. I defined quality parameters, establishment of a cultural framework, support in programming areas, direction of vision and mission of the project, creation of project documentation and daily meeting guide. In the development part I did front-end, back-end to a lesser extent, and most of mobile, with react native.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png",
-        projectLinkGit: "https://github.com/f-fuddy",
-        projectLinkDeploy: "https://fuddy.click",
-        projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, and GitHub.",
       },
       {
         projectName: "DRAIG Artist Web",
