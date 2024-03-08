@@ -108,16 +108,39 @@ const translations: any = {
           "Next.js, Tailwind, Express.js, Node.js, MongoDB, y GitHub.",
       },
       {
-        projectName: "Fuddy - AI App",
+        projectName: "Fuddy - App",
         projectDescription:
           "Colaboré en la dirección de un equipo de 6 personas, como project manager y desarrollador. Definí parámetros de calidad, establecimiento de marco de trabajo cultural, apoyo en áreas de programación, direccionamiento de visión y misión del proyecto, creación de documentación del proyecto y guía de reuniones diarias. En la parte de desarrollo hice front-end, back-end en menor medida, y la mayor parte de mobile, con react native.",
         projectImg:
+          "https://res.cloudinary.com/fuddy/image/upload/v1709925870/app/akq1pzyvxlc78krhplgm.png",
+        projectLinkGit: "https://github.com/f-fuddy",
+        projectLinkDeploy: "https://app.fuddy.click/register",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub, Vercel.",
+      },
+      {
+        projectName: "Fuddy - Landing",
+        projectDescription:
+          " Definí los parámetros de calidad, apoyo en áreas de programación front-end, mantenimiento, actualizaciones y despliegue de la web.",
+        projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png",
         projectLinkGit: "https://github.com/f-fuddy",
-        projectLinkDeploy: "https://fuddy.click",
+        projectLinkDeploy: "https://fuddy.click/",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, y GitHub.",
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub y Vercel.",
       },
+      {
+        projectName: "Fuddy - Blog",
+        projectDescription:
+          "Creé el blog donde se repostean las newsletter semanales de Fuddy, a fin de poder visualizarlas en una web especifica.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/aw68dduth0cqxvwoo7ho.png",
+        projectLinkGit: "https://github.com/f-fuddy",
+        projectLinkDeploy: "https://blog.fuddy.click/",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, Markdown, GitHub y Vercel.",
+      },
+
       {
         projectName: "DRAIG - Web de Artista",
         projectDescription:
@@ -277,6 +300,39 @@ const translations: any = {
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://templatebaber.netlify.app/",
         projectStack: "Next.js, tailwind, and GitHub.",
+      },
+      {
+        projectName: "Fuddy - App",
+        projectDescription:
+          "I collaborated in the direction of a team of 6 people, as a project manager and developer. I defined quality parameters, establishment of a cultural framework, support in programming areas, direction of the vision and mission of the project, creation of project documentation and daily meeting guide. In the development part I did front-end, back-end to a lesser extent, and most of mobile, with react native.",
+        projectImg:
+          "https://res.cloudinary.com/fuddy/image/upload/v1709925870/app/akq1pzyvxlc78krhplgm.png",
+        projectLinkGit: "https://github.com/f-fuddy",
+        projectLinkDeploy: "https://app.fuddy.click/register",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub, Vercel.",
+      },
+      {
+        projectName: "Fuddy - Landing",
+        projectDescription:
+          "I defined the quality parameters, support in areas of front-end programming, maintenance, updates and deployment of the website.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png",
+        projectLinkGit: "https://github.com/f-fuddy",
+        projectLinkDeploy: "https://fuddy.click/",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub y Vercel.",
+      },
+      {
+        projectName: "Fuddy - Blog",
+        projectDescription:
+          "I created the blog where Fuddy's weekly newsletters are reposted, in order to be able to view them on a specific website.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/aw68dduth0cqxvwoo7ho.png",
+        projectLinkGit: "https://github.com/f-fuddy",
+        projectLinkDeploy: "https://blog.fuddy.click/",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, Markdown, GitHub y Vercel.",
       },
 
       {
