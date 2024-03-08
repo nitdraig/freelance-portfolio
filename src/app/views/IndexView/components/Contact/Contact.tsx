@@ -54,42 +54,50 @@ const Contact = () => {
             {translations[language].contactText}
           </h3>
           <form onSubmit={onSubmit} className="mt-10">
-            <input
-              type="hidden"
-              name="access_key"
-              value="YOUR_ACCESS_KEY_HERE"
-            />
+            <input type="hidden" />
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="relative z-0">
                 <input
                   type="text"
                   name="name"
+                  id="name"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
-                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]">
+                <label
+                  aria-labelledby="name"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]"
+                >
                   {translations[language].contactForm1}
                 </label>
               </div>
               <div className="relative z-0">
                 <input
+                  id="email"
                   type="text"
                   name="email"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
-                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]">
+                <label
+                  aria-labelledby="email"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]"
+                >
                   {translations[language].contactForm2}
                 </label>
               </div>
               <div className="relative z-0 col-span-2">
                 <textarea
                   name="message"
+                  id="message"
                   rows={5}
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></textarea>
-                <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]">
+                <label
+                  aria-labelledby="message"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-200 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-[#6A0DAD] peer-focus:dark:text-[#fff]"
+                >
                   {translations[language].contactForm3}
                 </label>
               </div>
