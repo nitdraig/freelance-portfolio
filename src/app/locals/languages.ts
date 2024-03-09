@@ -65,6 +65,17 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "DC Consultura - Página Web exclusiva",
+        projectDescription:
+          "Realicé esta web de forma personalizada y con un diseño exclusivo, enfocado en la consultora, sus necesidades y a la par de los criterios del cliente. Es un trabajo freelance. Además de la programación y diseño, colaboré en la creación de las redes sociales, logos, presencia en línea, mantenimiento de la página, dominio y optimización de SEO.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1709857812/freelance/dc-consultora/jeyhi2cocajc7ouv4cnx.png",
+        projectLinkGit: "https://github.com/nitdraig/",
+        projectLinkDeploy: "https://dcconsultora.com.ar/",
+        projectStack:
+          "Next.js, tailwind, Express, Cloudflare, Express, Vercel, & GitHub.",
+      },
+      {
         projectName: "Skipy",
         projectDescription:
           "Una multi-herramienta que busca centralizar recursos de uso cotidiano para programadores y usuarios IT. Tiene acortador de URLS, Generador de contraseñas, QR y Encriptador de texto.",
@@ -281,12 +292,23 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "DC Consultura - Exclusive website",
+        projectDescription:
+          "I created this website in a personalized way and with an exclusive design, focused on the consultancy, its needs and on par with the client's criteria. It's a freelance job. In addition to programming and design, I collaborated in the creation of social networks, logos, online presence, page maintenance, domain and SEO optimization.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1709857812/freelance/dc-consultora/jeyhi2cocajc7ouv4cnx.png",
+        projectLinkGit: "https://github.com/nitdraig/",
+        projectLinkDeploy: "https://dcconsultora.com.ar/",
+        projectStack:
+          "Next.js, tailwind, Express, Cloudflare, Express, Vercel, and GitHub.",
+      },
+      {
         projectName: "Skipy",
         projectDescription:
           "A multi-tool that seeks to centralize everyday resources for programmers and IT users. It has a URL shortener, a password generator, a QR code and a text encryptor.",
         projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1706016395/portolio-personal/m4lxn8etwagxrdxzxynu.png",
-        projectLinkGit: "https://skipy.top/ozxzrf",
+        projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://skipy.top/",
         projectStack:
           "Next.js, tailwind, Express, Cloudflare, Canny, Vercel, and GitHub.",
