@@ -27,12 +27,12 @@ function Hero() {
           src="https://res.cloudinary.com/draig/image/upload/v1688835318/profile-pic_2_pxpzfg.png"
         />
         <div className="z-20">
-          <h1 className=" uppercase  text-3xl lg:text-5xl text-white pb-3 tracking-[8px]">
+          <h2 className=" uppercase  text-3xl lg:text-5xl text-white pb-3 tracking-[8px]">
             Avellaneda Agustín
-          </h1>
-          <h3 className="uppercase lg:text-2xl font-serif text-lg text-white lg:mt-2 tracking-[2px]">
+          </h2>
+          <h1 className="uppercase lg:text-2xl font-serif text-lg text-white lg:mt-2 tracking-[2px]">
             {translations[language].hero}
-          </h3>
+          </h1>
           <h3 className="text-1xl text-white lg:text-3xl font-semibold lg:mt-4 mt-4 px-5 lg:px-10">
             <span className="mr-3 text-2xl">{text}</span>
             <Cursor cursorColor="#6A0DAD" />
