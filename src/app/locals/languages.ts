@@ -27,7 +27,7 @@ const translations: any = {
     myDescription:
       "Un apasionado Fullstack Web Developer y Project Manager con experiencia en la creación de soluciones web innovadoras y de alta calidad.",
     myDescription2:
-      "Mi enfoque se centra en la entrega de proyectos exitosos que superen las expectativas del cliente y generen un impacto positivo en el mercado. Con una sólida experiencia en el desarrollo tanto del front-end como del back-end, junto con habilidades de gestión de proyectos, estoy comprometido con la excelencia técnica y la satisfacción del cliente.",
+      "Ofrezco un servicio personalizado que se adapta a tus necesidades, las de tu proyecto y tu economía. Si buscas soluciones de desarrollo web que destaquen en calidad y efectividad, ¡estás en el lugar correcto! Ponte en contacto conmigo para discutir cómo puedo ayudarte a alcanzar tus objetivos en línea.",
     myProjects: "MIS CASOS DE ÉXITOS",
     myProjectsDescription: "Varios de los proyectos donde he colaborado",
     experienceTittle: "Mi experiencia",
@@ -65,7 +65,7 @@ const translations: any = {
     ],
     projectsLists: [
       {
-        projectName: "DC Consultura - Página Web exclusiva",
+        projectName: "DC Consultura - Web exclusiva",
         projectDescription:
           "Realicé esta web de forma personalizada y con un diseño exclusivo, enfocado en la consultora, sus necesidades y a la par de los criterios del cliente. Es un trabajo freelance. Además de la programación y diseño, colaboré en la creación de las redes sociales, logos, presencia en línea, mantenimiento de la página, dominio y optimización de SEO.",
         projectImg:
@@ -73,7 +73,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://dcconsultora.com.ar/",
         projectStack:
-          "Next.js, tailwind, Express, Cloudflare, Express, Vercel, & GitHub.",
+          "Desarrollo Web, Diseño gráfico, posicionamiento en Google, Mantenimiento, Creación y Manejo de Redes Sociales",
       },
       {
         projectName: "Skipy",
@@ -84,7 +84,7 @@ const translations: any = {
         projectLinkGit: "https://skipy.top/ozxzrf",
         projectLinkDeploy: "https://skipy.top/",
         projectStack:
-          "Next.js, tailwind, Express, Cloudflare, Canny, Vercel, y GitHub.",
+          "Desarrollo Web, posicionamiento en Google, Mantenimiento.",
       },
       {
         projectName: "Barber Template",
@@ -94,7 +94,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1703710922/plantillas/barberia/hndetznwqmznic3ydvxt.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://templatebaber.netlify.app/",
-        projectStack: "Next.js, tailwind, y GitHub.",
+        projectStack: "Desarrollo Web, Mantenimiento",
       },
 
       {
@@ -105,7 +105,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1699054217/portolio-personal/hvc15pkogv8riltmvxy3.png",
         projectLinkGit: "",
         projectLinkDeploy: "https://es.blog.agustin.top",
-        projectStack: "Next.js, tailwind, GitHub y markdown.",
+        projectStack: "Desarrollo Web, Presencia en Google, Mantenimiento",
       },
       {
         projectName: "FER - CFO Asistente de AI",
@@ -115,8 +115,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1694050182/portolio-personal/cltghxlaarfsj4yck4bv.webp",
         projectLinkGit: "https://github.com/nitdraig",
         projectLinkDeploy: "https://cfobot-fe.vercel.app",
-        projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, y GitHub.",
+        projectStack: "Desarrollo WebApp, Mantenimiento, IA-App",
       },
       {
         projectName: "Fuddy - App",
@@ -127,7 +126,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://app.fuddy.click/register",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub, Vercel.",
+          "Desarrollo Mobile, Mantenimiento, Team Managment, Revisión de código, Presencia en Google, Manejo de Redes Sociales.",
       },
       {
         projectName: "Fuddy - Landing",
@@ -138,7 +137,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://fuddy.click/",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub y Vercel.",
+          "Desarrollo Web, Mantenimiento, Team Managment, Revisión de código, Presencia en Google, Manejo de Redes Sociales.",
       },
       {
         projectName: "Fuddy - Blog",
@@ -149,7 +148,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, Markdown, GitHub y Vercel.",
+          "Desarrollo Web, Mantenimiento, Team Managment, Revisión de código, Presencia en Google.",
       },
 
       {
@@ -160,18 +159,10 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1689203365/portolio-personal/j1zztmcsj5mj3a7eagjs.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page",
         projectLinkDeploy: "https://draig.art",
-        projectStack: "Next.js, Tailwind, Node.js, y GitHub.",
+        projectStack:
+          "Desarrollo Web, Mantenimiento, Revisión de código, Presencia en Google, Redes Sociales.",
       },
-      {
-        projectName: "Proyecto en el bootcamp de Alura",
-        projectDescription:
-          "Un proyecto realizado con React y diferentes hooks de este, permite crear nuevos miembros en la organización, cambiar color y asignar roles a cada uno, así como eliminar miembros con solo clickear un botón. Subido a vercel.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1689203842/portolio-personal/v2nau1wgkx2d3ofeeq9d.png",
-        projectLinkGit: "https://github.com/nitdraig/org-proyect-alura",
-        projectLinkDeploy: "https://org-proyect-alura.vercel.app",
-        projectStack: "React.js, y GitHub.",
-      },
+
       {
         projectName: "TNS - Web de empresa",
         projectDescription:
@@ -181,7 +172,7 @@ const translations: any = {
         projectLinkGit:
           "https://github.com/nitdraig/tinta-negra-studios-nextjs",
         projectLinkDeploy: "https://tinta-negra-studios.vercel.app",
-        projectStack: "Next.js, Tailwind y GitHub.",
+        projectStack: "Desarrollo Web, Mantenimiento",
       },
     ],
 
@@ -255,7 +246,7 @@ const translations: any = {
     myDescription:
       "A passionate Fullstack Web Developer and Project Manager with experience creating innovative, high-quality web solutions.",
     myDescription2:
-      "My focus is on delivering successful projects that exceed client expectations and generate a positive impact on the market. With strong experience in both front-end and back-end development, along with project management skills, I am committed to technical excellence and customer satisfaction.",
+      "I offer a personalized service that adapts to your needs, those of your project and your economy. If you are looking for web development solutions that stand out in quality and effectiveness, you are in the right place! Contact me to discuss how I can help you achieve your online goals.",
     myProjects: "MY SUCCESS STORIES",
     myProjectsDescription: "Several of the projects where I have collaborated",
     experienceDesc: "My experiences and what I learned from them.",
@@ -300,7 +291,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://dcconsultora.com.ar/",
         projectStack:
-          "Next.js, tailwind, Express, Cloudflare, Express, Vercel, and GitHub.",
+          "Web Development, Graphic Design, Google Positioning, Maintenance, Creation and Management of Social Networks",
       },
       {
         projectName: "Skipy",
@@ -310,8 +301,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1706016395/portolio-personal/m4lxn8etwagxrdxzxynu.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://skipy.top/",
-        projectStack:
-          "Next.js, tailwind, Express, Cloudflare, Canny, Vercel, and GitHub.",
+        projectStack: "Web Development, Google positioning, Maintenance.",
       },
       {
         projectName: "Barber Template",
@@ -321,7 +311,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1703710922/plantillas/barberia/hndetznwqmznic3ydvxt.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://templatebaber.netlify.app/",
-        projectStack: "Next.js, tailwind, and GitHub.",
+        projectStack: "Web Development, Maintenance",
       },
 
       {
@@ -332,7 +322,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1699054217/portolio-personal/hvc15pkogv8riltmvxy3.png",
         projectLinkGit: "",
         projectLinkDeploy: "https://es.blog.agustin.top",
-        projectStack: "Next.js, tailwind, GitHub and markdown.",
+        projectStack: "Web Development, Google Presence, Maintenance",
       },
       {
         projectName: "FER - CFO AI Asistent",
@@ -342,8 +332,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1694050182/portolio-personal/cltghxlaarfsj4yck4bv.webp",
         projectLinkGit: "https://github.com/nitdraig",
         projectLinkDeploy: "https://cfobot-fe.vercel.app",
-        projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, and GitHub.",
+        projectStack: "WebApp Development, Maintenance, IA-App",
       },
       {
         projectName: "Fuddy - App",
@@ -354,7 +343,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://app.fuddy.click/register",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub, Vercel.",
+          "Mobile Development, Maintenance, Team Management, Code Review, Presence on Google, Social Network Management.",
       },
       {
         projectName: "Fuddy - Landing",
@@ -365,7 +354,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://fuddy.click/",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, GitHub y Vercel.",
+          "Web Development, Maintenance, Team Management, Code Review, Presence on Google, Social Network Management.",
       },
       {
         projectName: "Fuddy - Blog",
@@ -376,7 +365,7 @@ const translations: any = {
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
-          "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, Markdown, GitHub y Vercel.",
+          "Web Development, Maintenance, Team Management, Code Review, Presence on Google.",
       },
       {
         projectName: "DRAIG Artist Web",
@@ -386,18 +375,10 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1689203365/portolio-personal/j1zztmcsj5mj3a7eagjs.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page",
         projectLinkDeploy: "https://draig.art",
-        projectStack: "Next.js, Tailwind, Node.js, and GitHub.",
+        projectStack:
+          "Web Development, Maintenance, Code Review, Presence on Google, Social Networks.",
       },
-      {
-        projectName: "Project at Alura bootcamp",
-        projectDescription:
-          "A project made with React and different hooks from it, It allows you to create new members in the organization, change color and assign roles to each one, as well as delete members with just the click of a button. Uploaded to vercel.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1689203842/portolio-personal/v2nau1wgkx2d3ofeeq9d.png",
-        projectLinkGit: "https://github.com/nitdraig/org-proyect-alura",
-        projectLinkDeploy: "https://org-proyect-alura.vercel.app",
-        projectStack: "React.js, and GitHub.",
-      },
+
       {
         projectName: "TNS - Business web",
         projectDescription:
@@ -407,7 +388,7 @@ const translations: any = {
         projectLinkGit:
           "https://github.com/nitdraig/tinta-negra-studios-nextjs",
         projectLinkDeploy: "https://tinta-negra-studios.vercel.app",
-        projectStack: "Next.js, Tailwind and GitHub.",
+        projectStack: "Web Development, Maintenance",
       },
     ],
 
