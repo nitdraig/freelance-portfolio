@@ -69,7 +69,7 @@ const translations: any = {
         projectDescription:
           "Realicé esta web de forma personalizada y con un diseño exclusivo, enfocado en la consultora, sus necesidades y a la par de los criterios del cliente. Es un trabajo freelance. Además de la programación y diseño, colaboré en la creación de las redes sociales, logos, presencia en línea, mantenimiento de la página, dominio y optimización de SEO.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1709857812/freelance/dc-consultora/jeyhi2cocajc7ouv4cnx.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/xjtu5mahky78zjdsqyw3.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://dcconsultora.com.ar/",
         projectStack:
@@ -80,7 +80,7 @@ const translations: any = {
         projectDescription:
           "Una multi-herramienta que busca centralizar recursos de uso cotidiano para programadores y usuarios IT. Tiene acortador de URLS, Generador de contraseñas, QR y Encriptador de texto.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1706016395/portolio-personal/m4lxn8etwagxrdxzxynu.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710538066/portolio-personal/mockups/isaxgjlhwbclwl69bjuw.png",
         projectLinkGit: "https://skipy.top/ozxzrf",
         projectLinkDeploy: "https://skipy.top/",
         projectStack:
@@ -91,7 +91,7 @@ const translations: any = {
         projectDescription:
           "Esta plantilla es una genérica que cree para ofrecer servicios freelance de páginas webs a pequeños negocios y negocios en crecimiento, forma parte de un proyecto que estoy desarrollando de colaboración con emprendimientos. Desarrollado en nextjs, usando cloudinary para manejar las imagenes, tailwind para los estilos y netlify para el despliegue.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1703710922/plantillas/barberia/hndetznwqmznic3ydvxt.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710538224/portolio-personal/mockups/fgsmuiwy4rro2ocxob69.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://templatebaber.netlify.app/",
         projectStack: "Desarrollo Web, Mantenimiento",
@@ -102,7 +102,7 @@ const translations: any = {
         projectDescription:
           "Un blog personal para contar mis experiencias, algunos avances, opiniones y cosas diversas relacionadas al mundo IT y mi paso por él, ahora disponible en español e inglés. Construído en Nextjs con tailwind.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1699054217/portolio-personal/hvc15pkogv8riltmvxy3.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710538034/portolio-personal/mockups/hfwcyori5dgaybr5m8au.png",
         projectLinkGit: "",
         projectLinkDeploy: "https://es.blog.agustin.top",
         projectStack: "Desarrollo Web, Presencia en Google, Mantenimiento",
@@ -112,7 +112,7 @@ const translations: any = {
         projectDescription:
           "Una web fullstack construída en nextjs el front-end, tailwind para los estilos, express en el back-end y mongoDB para almacenar interacciones del chat, hace uso de la API de PaLM para consultas en formato chat. La API está configurada para actuar como un CFO que ayude a startups y emprendedores. Sólo responde a charlas en inglés.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1694050182/portolio-personal/cltghxlaarfsj4yck4bv.webp",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/tyr2grmmsqgmbpgwilik.png",
         projectLinkGit: "https://github.com/nitdraig",
         projectLinkDeploy: "https://cfobot-fe.vercel.app",
         projectStack: "Desarrollo WebApp, Mantenimiento, IA-App",
@@ -122,7 +122,7 @@ const translations: any = {
         projectDescription:
           "Colaboré en la dirección de un equipo de 6 personas, como project manager y desarrollador. Definí parámetros de calidad, establecimiento de marco de trabajo cultural, apoyo en áreas de programación, direccionamiento de visión y misión del proyecto, creación de documentación del proyecto y guía de reuniones diarias. En la parte de desarrollo hice front-end, back-end en menor medida, y la mayor parte de mobile, con react native.",
         projectImg:
-          "https://res.cloudinary.com/fuddy/image/upload/v1709925870/app/akq1pzyvxlc78krhplgm.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537892/portolio-personal/mockups/avpkiec8jdzm02kbkqno.png",
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://app.fuddy.click/register",
         projectStack:
@@ -133,7 +133,7 @@ const translations: any = {
         projectDescription:
           " Definí los parámetros de calidad, apoyo en áreas de programación front-end, mantenimiento, actualizaciones y despliegue de la web.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537729/portolio-personal/mockups/x2oecd8e49k6j5rjogzd.png",
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://fuddy.click/",
         projectStack:
@@ -144,7 +144,7 @@ const translations: any = {
         projectDescription:
           "Creé el blog donde se repostean las newsletter semanales de Fuddy, a fin de poder visualizarlas en una web especifica.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/aw68dduth0cqxvwoo7ho.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/pqz48iugxumztbp4ypc7.png",
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
@@ -156,7 +156,7 @@ const translations: any = {
         projectDescription:
           "Una página realizada para mi lado artistico 'DRAIG', se usó react, tailwind y diversas librerias con el fin de darle movimientos y responsividad en diversos formatos. Subido a vercel. Las imagenes están optimizadas y subidas al gestor de archivos online 'cloudinary'.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1689203365/portolio-personal/j1zztmcsj5mj3a7eagjs.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/udq7qgckjdyz5zyc3sdm.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page",
         projectLinkDeploy: "https://draig.art",
         projectStack:
@@ -168,7 +168,7 @@ const translations: any = {
         projectDescription:
           "Una landing page desarrollada para 'Tinta negra studios' un estudio de musica independiente. Esta desarrollado en Next.js, usando tailwind para los estilos, cloudinary para optimizar la carga de imagenes, y varias librerias de animación. Se realizó optimización para posicionamiento mediante SEO. Se usó vercel para el deploy del proyecto.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1689203304/portolio-personal/diuigsviz2nuybwzlewi.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537434/portolio-personal/mockups/ri4orhyagqfzejthwhbw.png",
         projectLinkGit:
           "https://github.com/nitdraig/tinta-negra-studios-nextjs",
         projectLinkDeploy: "https://tinta-negra-studios.vercel.app",
@@ -283,11 +283,11 @@ const translations: any = {
     ],
     projectsLists: [
       {
-        projectName: "DC Consultura - Exclusive website",
+        projectName: "DC Consultura - Website",
         projectDescription:
           "I created this website in a personalized way and with an exclusive design, focused on the consultancy, its needs and on par with the client's criteria. It's a freelance job. In addition to programming and design, I collaborated in the creation of social networks, logos, online presence, page maintenance, domain and SEO optimization.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1709857812/freelance/dc-consultora/jeyhi2cocajc7ouv4cnx.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/xjtu5mahky78zjdsqyw3.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://dcconsultora.com.ar/",
         projectStack:
@@ -298,7 +298,7 @@ const translations: any = {
         projectDescription:
           "A multi-tool that seeks to centralize everyday resources for programmers and IT users. It has a URL shortener, a password generator, a QR code and a text encryptor.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1706016395/portolio-personal/m4lxn8etwagxrdxzxynu.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710538066/portolio-personal/mockups/isaxgjlhwbclwl69bjuw.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://skipy.top/",
         projectStack: "Web Development, Google positioning, Maintenance.",
@@ -308,7 +308,7 @@ const translations: any = {
         projectDescription:
           "This template is a generic one that I created to offer freelance website services to small businesses and growing businesses, it is part of a project that I am developing in collaboration with startups. Developed in nextjs, using cloudinary to manage the images, tailwind for styles and netlify for display.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1703710922/plantillas/barberia/hndetznwqmznic3ydvxt.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710538224/portolio-personal/mockups/fgsmuiwy4rro2ocxob69.png",
         projectLinkGit: "https://github.com/nitdraig/",
         projectLinkDeploy: "https://templatebaber.netlify.app/",
         projectStack: "Web Development, Maintenance",
@@ -319,7 +319,7 @@ const translations: any = {
         projectDescription:
           "A personal blog to tell my experiences, some progress, opinions and various things related to the IT world and my time in it, now available in Spanish and English. Built in Nextjs with tailwind.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1699054217/portolio-personal/hvc15pkogv8riltmvxy3.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710538034/portolio-personal/mockups/hfwcyori5dgaybr5m8au.png",
         projectLinkGit: "",
         projectLinkDeploy: "https://es.blog.agustin.top",
         projectStack: "Web Development, Google Presence, Maintenance",
@@ -329,7 +329,7 @@ const translations: any = {
         projectDescription:
           "A fullstack website built in nextjs on the front-end, tailwind for styles, express on the back-end and mongoDB to store chat interactions, makes use of the PaLM API for queries in chat format. The API is configured to act as a CFO who helps startups and entrepreneurs. Only responds to talks in English.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1694050182/portolio-personal/cltghxlaarfsj4yck4bv.webp",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/tyr2grmmsqgmbpgwilik.png",
         projectLinkGit: "https://github.com/nitdraig",
         projectLinkDeploy: "https://cfobot-fe.vercel.app",
         projectStack: "WebApp Development, Maintenance, IA-App",
@@ -339,7 +339,7 @@ const translations: any = {
         projectDescription:
           "I collaborated in the direction of a team of 6 people, as a project manager and developer. I defined quality parameters, establishment of a cultural framework, support in programming areas, direction of the vision and mission of the project, creation of project documentation and daily meeting guide. In the development part I did front-end, back-end to a lesser extent, and most of mobile, with react native.",
         projectImg:
-          "https://res.cloudinary.com/fuddy/image/upload/v1709925870/app/akq1pzyvxlc78krhplgm.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537892/portolio-personal/mockups/avpkiec8jdzm02kbkqno.png",
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://app.fuddy.click/register",
         projectStack:
@@ -350,7 +350,7 @@ const translations: any = {
         projectDescription:
           "I defined the quality parameters, support in areas of front-end programming, maintenance, updates and deployment of the website.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537729/portolio-personal/mockups/x2oecd8e49k6j5rjogzd.png",
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://fuddy.click/",
         projectStack:
@@ -361,7 +361,7 @@ const translations: any = {
         projectDescription:
           "I created the blog where Fuddy's weekly newsletters are reposted, in order to be able to view them on a specific website.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/aw68dduth0cqxvwoo7ho.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/pqz48iugxumztbp4ypc7.png",
         projectLinkGit: "https://github.com/f-fuddy",
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
@@ -372,7 +372,7 @@ const translations: any = {
         projectDescription:
           "A page made for my artistic side 'DRAIG', react was used, tailwind and various libraries in order to give it movements and responsiveness in various formats. Uploaded to vercel. The images are optimized and uploaded to the online file manager 'cloudinary'.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1689203365/portolio-personal/j1zztmcsj5mj3a7eagjs.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/udq7qgckjdyz5zyc3sdm.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page",
         projectLinkDeploy: "https://draig.art",
         projectStack:
@@ -384,7 +384,7 @@ const translations: any = {
         projectDescription:
           "A landing page developed for 'Tinta negra studios' an independent music studio. It is developed in Next.js, using tailwind for styles, cloudinary to optimize image loading, and several animation libraries. Optimization for positioning was carried out through SEO. Vercel was used to deploy the project.",
         projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1689203304/portolio-personal/diuigsviz2nuybwzlewi.png",
+          "https://res.cloudinary.com/draig/image/upload/v1710537434/portolio-personal/mockups/ri4orhyagqfzejthwhbw.png",
         projectLinkGit:
           "https://github.com/nitdraig/tinta-negra-studios-nextjs",
         projectLinkDeploy: "https://tinta-negra-studios.vercel.app",

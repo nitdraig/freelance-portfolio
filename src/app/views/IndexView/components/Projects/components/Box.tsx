@@ -23,7 +23,7 @@ const Box = ({
 
   return (
     <div
-      className="relative lg:w-1/4 md:w-1/2 w-80 h-56 bg-gray-800 shadow-lg overflow-hidden float-left mb-4"
+      className="relative lg:w-1/4 md:w-1/2 w-80 h-56 bg-transparent shadow-lg overflow-hidden cursor-help float-left mb-4"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       data-aos="flip-right"
