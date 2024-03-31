@@ -63,6 +63,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
+                  required
                   id="name"
                   aria-labelledby="name"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
@@ -76,6 +77,7 @@ const Contact = () => {
                 <input
                   id="email"
                   type="text"
+                  required
                   name="email"
                   aria-labelledby="email"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
@@ -90,6 +92,7 @@ const Contact = () => {
                   name="message"
                   id="message"
                   rows={5}
+                  required
                   aria-labelledby="message"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder={translations[language].contactForm3}
