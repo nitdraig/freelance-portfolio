@@ -67,7 +67,7 @@ const translations: any = {
       {
         projectName: "DRAIG - Landing Page",
         projectDescription:
-          "Se utilizó una página hecha para mi lado artístico 'DRAIG', react, tailwind y varias librerías para darle movimiento y capacidad de respuesta en varios formatos. Subida a vercel. Las imágenes están optimizadas y subidas al administrador de archivos online 'cloudinary' .",
+          "Se utilizó una página hecha para mi lado artístico 'DRAIG'.  Las imágenes están optimizadas y subidas al administrador de archivos online 'cloudinary' .",
         projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1716777942/portolio-personal/mockups/sdofs5xllbzaplhoruy1.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
@@ -284,7 +284,7 @@ const translations: any = {
       {
         projectName: "DRAIG - Landing Page",
         projectDescription:
-          "A page made for my artistic side 'DRAIG', react, tailwind and various libraries were used in order to give it movement and responsiveness in various formats. Uploaded to vercel. The images are optimized and uploaded to the 'cloudinary' online file manager.",
+          "A page made for my artistic side 'DRAIG'.  The images are optimized and uploaded to the 'cloudinary' online file manager.",
         projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1716777942/portolio-personal/mockups/sdofs5xllbzaplhoruy1.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
