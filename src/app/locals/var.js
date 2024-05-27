@@ -1,5 +1,15 @@
 export const projectLists = [
   {
+    projectName: "DRAIG - Landing Page",
+    projectDescription:
+      "A page made for my artistic side 'DRAIG', react, tailwind and various libraries were used in order to give it movement and responsiveness in various formats. Uploaded to vercel. The images are optimized and uploaded to the 'cloudinary' online file manager.",
+    projectImg:
+      "https://res.cloudinary.com/draig/image/upload/v1716756378/draig-page/w2mxnh6grba0tcdoqeiu.png",
+    projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
+    projectLinkDeploy: "https://draig.art",
+    projectStack: "Next.js, Tailwind, Node.js, Typescript, GitHub & Yarn.",
+  },
+  {
     projectName: "Skipy",
     projectDescription:
       "Una multi-herramienta que busca centralizar recursos de uso cotidiano para programadores y usuarios IT. Tiene acortador de URLS, Generador de contraseñas, QR y Encriptador de texto.",
@@ -51,16 +61,6 @@ export const projectLists = [
     projectLinkDeploy: "https://fuddy.click",
     projectStack:
       "Next.js, Tailwind, Express.js, Node.js, MongoDB, React Native, GraphQL, y GitHub.",
-  },
-  {
-    projectName: "Landing Page DRAIG",
-    projectDescription:
-      "Una página realizada para mi lado artistico 'DRAIG', se usó react, tailwind y diversas librerias con el fin de darle movimientos y responsividad en diversos formatos. Subido a vercel. Las imagenes están optimizadas y subidas al gestor de archivos online 'cloudinary'.",
-    projectImg:
-      "https://res.cloudinary.com/draig/image/upload/v1689203365/portolio-personal/j1zztmcsj5mj3a7eagjs.png",
-    projectLinkGit: "https://github.com/nitdraig/draig-page",
-    projectLinkDeploy: "https://draig.art",
-    projectStack: "Next.js, Tailwind, Node.js, y GitHub.",
   },
   {
     projectName: "Proyecto en el bootcamp de Alura",

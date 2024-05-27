@@ -65,6 +65,17 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "DRAIG - Landing Page",
+        projectDescription:
+          "Se utilizó una página hecha para mi lado artístico 'DRAIG', react, tailwind y varias librerías para darle movimiento y capacidad de respuesta en varios formatos. Subida a vercel. Las imágenes están optimizadas y subidas al administrador de archivos online 'cloudinary' .",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1716756378/draig-page/w2mxnh6grba0tcdoqeiu.png",
+        projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
+        projectLinkDeploy: "https://draig.art",
+        projectStack:
+          "Desarrollo Web, Mantenimiento, Revisión de código, Presencia en Google, Redes Sociales.",
+      },
+      {
         projectName: "DC Consultura - Web exclusiva",
         projectDescription:
           "Realicé esta web de forma personalizada y con un diseño exclusivo, enfocado en la consultora, sus necesidades y a la par de los criterios del cliente. Es un trabajo freelance. Además de la programación y diseño, colaboré en la creación de las redes sociales, logos, presencia en línea, mantenimiento de la página, dominio y optimización de SEO.",
@@ -149,18 +160,6 @@ const translations: any = {
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
           "Desarrollo Web, Mantenimiento, Team Managment, Revisión de código, Presencia en Google.",
-      },
-
-      {
-        projectName: "DRAIG - Web de Artista",
-        projectDescription:
-          "Una página realizada para mi lado artistico 'DRAIG', se usó react, tailwind y diversas librerias con el fin de darle movimientos y responsividad en diversos formatos. Subido a vercel. Las imagenes están optimizadas y subidas al gestor de archivos online 'cloudinary'.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/udq7qgckjdyz5zyc3sdm.png",
-        projectLinkGit: "https://github.com/nitdraig/draig-page",
-        projectLinkDeploy: "https://draig.art",
-        projectStack:
-          "Desarrollo Web, Mantenimiento, Revisión de código, Presencia en Google, Redes Sociales.",
       },
 
       {
@@ -283,6 +282,17 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "DRAIG - Landing Page",
+        projectDescription:
+          "A page made for my artistic side 'DRAIG', react, tailwind and various libraries were used in order to give it movement and responsiveness in various formats. Uploaded to vercel. The images are optimized and uploaded to the 'cloudinary' online file manager.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1716756378/draig-page/w2mxnh6grba0tcdoqeiu.png",
+        projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
+        projectLinkDeploy: "https://draig.art",
+        projectStack:
+          "Web Development, Maintenance, Code Review, Presence on Google, Social Networks.",
+      },
+      {
         projectName: "DC Consultura - Website",
         projectDescription:
           "I created this website in a personalized way and with an exclusive design, focused on the consultancy, its needs and on par with the client's criteria. It's a freelance job. In addition to programming and design, I collaborated in the creation of social networks, logos, online presence, page maintenance, domain and SEO optimization.",
@@ -366,17 +376,6 @@ const translations: any = {
         projectLinkDeploy: "https://blog.fuddy.click/",
         projectStack:
           "Web Development, Maintenance, Team Management, Code Review, Presence on Google.",
-      },
-      {
-        projectName: "DRAIG Artist Web",
-        projectDescription:
-          "A page made for my artistic side 'DRAIG', react was used, tailwind and various libraries in order to give it movements and responsiveness in various formats. Uploaded to vercel. The images are optimized and uploaded to the online file manager 'cloudinary'.",
-        projectImg:
-          "https://res.cloudinary.com/draig/image/upload/v1710537433/portolio-personal/mockups/udq7qgckjdyz5zyc3sdm.png",
-        projectLinkGit: "https://github.com/nitdraig/draig-page",
-        projectLinkDeploy: "https://draig.art",
-        projectStack:
-          "Web Development, Maintenance, Code Review, Presence on Google, Social Networks.",
       },
 
       {
