@@ -1,6 +1,6 @@
 import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
-import React from "react";
+import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Swal from "sweetalert2";
@@ -8,33 +8,80 @@ import Swal from "sweetalert2";
 const Contact = () => {
   const [result, setResult] = React.useState("");
   const { language } = useLanguage();
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
 
-  const onSubmit = async (event: any) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-    formData.append("access_key", `${process.env.KEYFORM}`);
+  const webName = "Freelance Portfolio";
+  const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_RECEIVER;
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    }).then((res) => res.json());
+    switch (name) {
+      case "fullname":
+        setFullname(value);
+        break;
+      case "webName":
+        value;
+        break;
+      case "emailDestiny":
+        value;
+        break;
+      case "email":
+        setEmail(value);
+        break;
+      case "phone":
+        setPhone(value);
+        break;
+      case "subject":
+        setSubject(value);
+        break;
 
-    if (res.success) {
-      Swal.fire({
-        icon: "success",
-        title: "¡El mensaje se ha enviado correctamente!",
-        text: "Gracias por comunicarte conmigo, en la brevedad te responderé :)",
-      });
-    } else {
-      Swal.fire({
-        icon: "error",
-        title: "Error al enviar el mensaje",
-        text: "Hubo un problema al enviar el mensaje. Por favor, intenta nuevamente más tarde.",
-      });
+      case "message":
+        setMessage(value);
+        break;
+      default:
+        break;
     }
   };
+  const onSubmit = async (event: any) => {
+    event.preventDefault();
 
+    try {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: email,
+          fullname: fullname,
+          subject: subject,
+          phone: phone,
+          message: message,
+          webName: webName,
+          emailDestiny: emailDestiny,
+        }),
+      });
+      if (response.ok) {
+        Swal.fire({
+          icon: "success",
+          title: "¡El mensaje se ha enviado correctamente!",
+          text: "Gracias por comunicarte conmigo, en la brevedad te responderé :)",
+        });
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Error al enviar el mensaje",
+          text: "Hubo un problema al enviar el mensaje. Por favor, intenta nuevamente más tarde.",
+        });
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
   return (
     <section
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F] h-full text-white pb-10 pt-10"
@@ -57,15 +104,17 @@ const Contact = () => {
             <input type="hidden" />
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="relative z-0">
-                <label htmlFor="name" className="sr-only">
+                <label htmlFor="fullname" className="sr-only">
                   {translations[language].contactForm1}
                 </label>
                 <input
                   type="text"
-                  name="name"
+                  name="fullname"
+                  value={fullname}
                   required
-                  id="name"
-                  aria-labelledby="name"
+                  id="fullname"
+                  aria-labelledby="fullname"
+                  onChange={handleChange}
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
                   placeholder={translations[language].contactForm1}
                 />
@@ -77,7 +126,9 @@ const Contact = () => {
                 <input
                   id="email"
                   type="text"
+                  value={email}
                   required
+                  onChange={handleChange}
                   name="email"
                   aria-labelledby="email"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
@@ -92,6 +143,8 @@ const Contact = () => {
                   name="message"
                   id="message"
                   rows={5}
+                  value={message}
+                  onChange={handleChange}
                   required
                   aria-labelledby="message"
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-white focus:border-[#6A0DAD] focus:outline-none focus:ring-0"
