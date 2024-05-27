@@ -1,9 +1,8 @@
-/* styles.css */
 .project-card {
   position: relative;
   overflow: hidden;
-  width: 300px; /* ajusta el tamaño según tus necesidades */
-  height: 200px; /* ajusta el tamaño según tus necesidades */
+  width: 300px;
+  height: 200px;
 }
 
 .project-image {
