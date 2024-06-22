@@ -65,6 +65,28 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "Mailprex - Docs Page",
+        projectDescription:
+          "Esta es la página de documentación que muestra todas las funcionalidades de la aplicación web Mailprex. Es totalmente responsiva y funcional.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1719099965/portolio-personal/mockups/ta7whvsahng3ainqlluf.png",
+        projectLinkGit: "https://github.com/nitdraig/mailprex-docs",
+        projectLinkDeploy: "https://docs.mailprex.top",
+        projectStack:
+          "NextJs, Nextra, Tailwind, Typescript, Cloudinary, Google Search, Vercel and GitHub.",
+      },
+      {
+        projectName: "Mailprex - Saas WebApp",
+        projectDescription:
+          "Mailprex es una plataforma web diseñada para simplificar el proceso de envío de formularios desde sitios web a correos electrónicos. Puedes integrar fácilmente un React Hook a tu proyecto, al cual le pasas los datos mínimos que permiten el envío y el contenido del formulario llega a tu correo elegido sin mayores inconvenientes.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1718992486/portolio-personal/mockups/zpmftxb6onblpw2jtojf.png",
+        projectLinkGit: "https://github.com/nitdraig/usemailprex-hook",
+        projectLinkDeploy: "https://mailprex.top",
+        projectStack:
+          "NextJs, Tailwind, Typescript, ExpressJs, NodeJs, Cloudinary, Google Search, Vercel and GitHub.",
+      },
+      {
         projectName: "DRAIG - Landing Page",
         projectDescription:
           "Se utilizó una página hecha para mi lado artístico 'DRAIG'.  Las imágenes están optimizadas y subidas al administrador de archivos online 'cloudinary' .",
@@ -281,6 +303,28 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectName: "Mailprex - Docs Page",
+        projectDescription:
+          "This is a documentation page that shows all the functionalities of the Mailprex web application. It's fully responsive and is fully functional. ",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1719099965/portolio-personal/mockups/ta7whvsahng3ainqlluf.png",
+        projectLinkGit: "https://github.com/nitdraig/mailprex-docs",
+        projectLinkDeploy: "https://docs.mailprex.top",
+        projectStack:
+          "NextJs, Nextra, Tailwind, Typescript, Cloudinary, Google Search, Vercel and GitHub.",
+      },
+      {
+        projectName: "Mailprex - Saas WebApp",
+        projectDescription:
+          "Mailprex is a web platform designed to simplify the process of submitting forms from websites to emails. You can easily integrate a React Hook in your project, to which you pass the minimum data that enables sending and the content of the form reaches your chosen email without further inconvenience.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1718992486/portolio-personal/mockups/zpmftxb6onblpw2jtojf.png",
+        projectLinkGit: "https://github.com/nitdraig/usemailprex-hook",
+        projectLinkDeploy: "https://mailprex.top",
+        projectStack:
+          "NextJs, Tailwind, Typescript, ExpressJs, NodeJs, Cloudinary, Google Search, Vercel and GitHub.",
+      },
       {
         projectName: "DRAIG - Landing Page",
         projectDescription:
