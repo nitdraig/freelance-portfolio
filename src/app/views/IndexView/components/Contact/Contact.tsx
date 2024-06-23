@@ -1,85 +1,33 @@
 import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
-import React, { useState } from "react";
+import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Swal from "sweetalert2";
+import { useMailprex } from "usemailprex-react";
 
 const Contact = () => {
-  const [result, setResult] = React.useState("");
   const { language } = useLanguage();
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [phone, setPhone] = useState("");
-
-  const webName = "Freelance Portfolio";
-  const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_RECEIVER;
-  const handleChange = (e: any) => {
-    const { name, value } = e.target;
-
-    switch (name) {
-      case "fullname":
-        setFullname(value);
-        break;
-      case "webName":
-        value;
-        break;
-      case "emailDestiny":
-        value;
-        break;
-      case "email":
-        setEmail(value);
-        break;
-      case "phone":
-        setPhone(value);
-        break;
-      case "subject":
-        setSubject(value);
-        break;
-
-      case "message":
-        setMessage(value);
-        break;
-      default:
-        break;
-    }
-  };
-  const onSubmit = async (event: any) => {
-    event.preventDefault();
-
-    try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email: email,
-          fullname: fullname,
-          subject: subject,
-          phone: phone,
-          message: message,
-          webName: webName,
-          emailDestiny: emailDestiny,
-        }),
+  const webName = "Portfolio Freelance Landing";
+  const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_DESTINY || "";
+  const url = "https://api.mailprex.top/email/send";
+  const formToken = process.env.NEXT_PUBLIC_MAILPREX_FORM_TOKEN || "";
+  const { formData, handleChange, handleSubmit, response } = useMailprex({
+    url,
+    webName,
+    emailDestiny,
+    formToken,
+  });
+  const handleFormSubmit = async (e: any) => {
+    e.preventDefault();
+    await handleSubmit(e);
+    if (response.error) {
+      Swal.fire({
+        title: "Error sending message. Try again later.",
+        icon: "error",
       });
-      if (response.ok) {
-        Swal.fire({
-          icon: "success",
-          title: "¡El mensaje se ha enviado correctamente!",
-          text: "Gracias por comunicarte conmigo, en la brevedad te responderé :)",
-        });
-      } else {
-        Swal.fire({
-          icon: "error",
-          title: "Error al enviar el mensaje",
-          text: "Hubo un problema al enviar el mensaje. Por favor, intenta nuevamente más tarde.",
-        });
-      }
-    } catch (error) {
-      console.error(error);
+    } else {
+      Swal.fire({ title: "Message sent succesfully!", icon: "success" });
     }
   };
   return (
@@ -87,9 +35,9 @@ const Contact = () => {
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F] h-full text-white pb-10 pt-10"
       id="contact"
     >
-      <h2 className="lg:p-12 text-center uppercase tracking-[2px] lg:tracking-[8px] text-white text-2xl lg:text-3xl lg:pt-3 pt-5 pb-8">
+      <h3 className="lg:p-12 text-center uppercase tracking-[2px] lg:tracking-[8px] text-white text-2xl lg:text-3xl lg:pt-3 pt-5 pb-8">
         {translations[language].contactWithMe}
-      </h2>
+      </h3>
       <span className="h-[1.1px] px-10 absolute w-full bg-gray-300 block"></span>
       <div
         data-aos="fade-up"
@@ -100,7 +48,7 @@ const Contact = () => {
           <h3 className="text-2xl font-bold mb-4">
             {translations[language].contactText}
           </h3>
-          <form onSubmit={onSubmit} className="mt-10">
+          <form onSubmit={handleFormSubmit} className="mt-10">
             <input type="hidden" />
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="relative z-0">
@@ -110,7 +58,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="fullname"
-                  value={fullname}
+                  value={formData.fullname}
                   required
                   id="fullname"
                   aria-labelledby="fullname"
@@ -126,7 +74,7 @@ const Contact = () => {
                 <input
                   id="email"
                   type="text"
-                  value={email}
+                  value={formData.email}
                   required
                   onChange={handleChange}
                   name="email"
@@ -143,7 +91,7 @@ const Contact = () => {
                   name="message"
                   id="message"
                   rows={5}
-                  value={message}
+                  value={formData.message}
                   onChange={handleChange}
                   required
                   aria-labelledby="message"
