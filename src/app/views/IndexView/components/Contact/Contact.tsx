@@ -10,7 +10,7 @@ const Contact = () => {
   const { language } = useLanguage();
   const webName = "Portfolio Freelance Landing";
   const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_DESTINY || "";
-  const url = "https://api.mailprex.top/email/send";
+  const url = process.env.NEXT_PUBLIC_API_URL_SEND || "";
   const formToken = process.env.NEXT_PUBLIC_MAILPREX_FORM_TOKEN || "";
   const { formData, handleChange, handleSubmit, response } = useMailprex({
     url,
