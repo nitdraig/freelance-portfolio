@@ -22,12 +22,9 @@ const Form = () => {
     e.preventDefault();
     await handleSubmit(e);
     if (response.error) {
-      Swal.fire({
-        title: "Error sending message. Try again later.",
-        icon: "error",
-      });
+      Error("Error al enviar el mensaje. Inténtalo de nuevo más tarde.");
     } else {
-      Swal.fire({ title: "Message sent succesfully!", icon: "success" });
+      alert("¡Mensaje enviado con éxito!");
     }
   };
   return (

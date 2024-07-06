@@ -1,6 +1,5 @@
 import Script from "next/script";
 import IndexView from "./views/IndexView";
-import { LanguageProvider } from "./components/LanguageContext";
 
 export default function Home() {
   return (
