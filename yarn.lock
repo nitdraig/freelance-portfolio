@@ -4498,10 +4498,10 @@ use-sidecar@^1.1.2:
     detect-node-es "^1.1.0"
     tslib "^2.0.0"
 
-usemailprex-react@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/usemailprex-react/-/usemailprex-react-1.0.1.tgz"
-  integrity sha512-99vrfvDyPua1Nttu7Dy2+idYUUwUVIsQd2SHNZPTqAnz42mGECEOvZv5eoj8T4NuwO9yrmcwxNdCJEuYJq80Jg==
+usemailprex-react@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/usemailprex-react/-/usemailprex-react-1.0.2.tgz"
+  integrity sha512-Hmr+LrJxVQqGYfNl0V7JigY2MEilrfTyt160+GfGewat+U7bAOkC/sQW8xkApNYM18nDghfgzQMNEGITqhMaJQ==
   dependencies:
     react "^18.3.1"
 
