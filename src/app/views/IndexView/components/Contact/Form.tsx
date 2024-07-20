@@ -1,6 +1,6 @@
 "use client";
 import { useLanguage } from "@/app/components/LanguageContext";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import translations from "@/app/locals/languages";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Swal from "sweetalert2";
@@ -19,22 +19,26 @@ const Form = () => {
     formToken,
   });
 
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   useEffect(() => {
-    if (response) {
+    if (formSubmitted) {
       if (response.error) {
         Swal.fire({
           title: "Error sending message. Try again later.",
           icon: "error",
         });
-      } else {
+      } else if (response) {
         Swal.fire({ title: "Message sent successfully!", icon: "success" });
       }
+      setFormSubmitted(false); // Reset form submission state after handling response
     }
-  }, [response]);
+  }, [response, formSubmitted]);
 
   const handleFormSubmit = async (e: any) => {
     e.preventDefault();
     await handleSubmit(e);
+    setFormSubmitted(true); // Mark form as submitted
   };
 
   return (
