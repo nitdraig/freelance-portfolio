@@ -10,7 +10,7 @@ const Form = () => {
   const { language } = useLanguage();
   const webName = "Portfolio Freelance Landing";
   const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_DESTINY || "";
-  const url = process.env.NEXT_PUBLIC_API_URL_SEND || "";
+  const url = "https://api.mailprex.top/email/send";
   const formToken = process.env.NEXT_PUBLIC_MAILPREX_FORM_TOKEN || "";
   const { formData, handleChange, handleSubmit, response } = useMailprex({
     url,
@@ -32,7 +32,6 @@ const Form = () => {
   };
   return (
     <form onSubmit={handleFormSubmit} className="mt-10">
-      <input type="hidden" />
       <div className="grid gap-6 sm:grid-cols-2">
         <div className="relative z-0">
           <label htmlFor="fullname" className="sr-only">
