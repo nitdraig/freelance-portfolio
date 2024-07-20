@@ -27,14 +27,7 @@ export const metadata: Metadata = {
     "especialista en desarrollo Back-end",
     "experto en testing de aplicaciones web",
   ],
-  metadataBase: new URL("https://agustin.top"),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-US": "/en-US",
-      "es-ES": "/es-ES",
-    },
-  },
+
   authors: {
     name: "Agustín Avellaneda",
   },
