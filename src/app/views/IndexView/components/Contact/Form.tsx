@@ -1,6 +1,6 @@
 "use client";
 import { useLanguage } from "@/app/components/LanguageContext";
-import React from "react";
+import React, { useEffect } from "react";
 import translations from "@/app/locals/languages";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Swal from "sweetalert2";
@@ -18,18 +18,25 @@ const Form = () => {
     emailDestiny,
     formToken,
   });
+
+  useEffect(() => {
+    if (response) {
+      if (response.error) {
+        Swal.fire({
+          title: "Error sending message. Try again later.",
+          icon: "error",
+        });
+      } else {
+        Swal.fire({ title: "Message sent successfully!", icon: "success" });
+      }
+    }
+  }, [response]);
+
   const handleFormSubmit = async (e: any) => {
     e.preventDefault();
     await handleSubmit(e);
-    if (response.error) {
-      Swal.fire({
-        title: "Error sending message. Try again later.",
-        icon: "error",
-      });
-    } else {
-      Swal.fire({ title: "Message sent succesfully!", icon: "success" });
-    }
   };
+
   return (
     <form onSubmit={handleFormSubmit} className="mt-10">
       <input type="hidden" />
