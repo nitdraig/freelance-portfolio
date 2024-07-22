@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import { useMailprex } from "usemailprex-react";
 
 const Form = () => {
-  const webName = "Mailprex Landing";
+  const webName = "Portfolio Freelance";
   const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_DESTINY || "";
   const url = "https://api.mailprex.top/email/send";
   const formToken = process.env.NEXT_PUBLIC_MAILPREX_FORM_TOKEN || "";
