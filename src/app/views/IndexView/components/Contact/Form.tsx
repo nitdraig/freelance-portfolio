@@ -6,7 +6,9 @@ const Form = () => {
   const webName = "Portfolio Freelance";
   const emailDestiny = process.env.NEXT_PUBLIC_EMAIL_DESTINY || "";
   const url = "https://api.mailprex.top/email/send";
-  const formToken = process.env.NEXT_PUBLIC_MAILPREX_FORM_TOKEN || "";
+  const formToken =
+    process.env.NEXT_PUBLIC_MAILPREX_FORM_TOKEN ||
+    "9f0bc589-cc7c-4161-9c08-f6b379855f2d";
   const { formData, handleChange, handleSubmit, response } = useMailprex({
     url,
     webName,
