@@ -21,7 +21,7 @@ const translations: any = {
       { title: "Acerca de mí", url: "/#aboutme" },
       { title: "Proyectos", url: "/#projects" },
       { title: "Servicios", url: "/#services" },
-      { title: "Blog", url: "/#" },
+      { title: "Blog", url: "https://es.blog.agustin.top" },
       { title: "Contactame", url: "/#contact" },
     ],
     myDescription:
@@ -465,7 +465,7 @@ const translations: any = {
       { title: "About me", url: "/#aboutme" },
       { title: "Projects", url: "/#projects" },
       { title: "Services", url: "/#services" },
-      { title: "Blog", url: "/#" },
+      { title: "Blog", url: "https://en.blog.agustin.top" },
       { title: "Contact me", url: "/#contact" },
     ],
     whySectionTitle: "WHY CHOOSE ME?",
