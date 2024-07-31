@@ -93,7 +93,7 @@ const translations: any = {
         projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1716777942/portolio-personal/mockups/sdofs5xllbzaplhoruy1.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
-        projectLinkDeploy: "https://draig.art",
+        projectLinkDeploy: "https://draig.agustin.top/",
         projectStack:
           "Desarrollo Web, Mantenimiento, Revisión de código, Presencia en Google, Redes Sociales.",
       },
@@ -334,7 +334,7 @@ const translations: any = {
         projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1716777942/portolio-personal/mockups/sdofs5xllbzaplhoruy1.png",
         projectLinkGit: "https://github.com/nitdraig/draig-page-2.0",
-        projectLinkDeploy: "https://draig.art",
+        projectLinkDeploy: "https://draig.agustin.top/",
         projectStack:
           "Web Development, Maintenance, Code Review, Presence on Google, Social Networks.",
       },
