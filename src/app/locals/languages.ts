@@ -192,7 +192,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1710537434/portolio-personal/mockups/ri4orhyagqfzejthwhbw.png",
         projectLinkGit:
           "https://github.com/nitdraig/tinta-negra-studios-nextjs",
-        projectLinkDeploy: "https://tinta-negra-studios.vercel.app",
+        projectLinkDeploy: "https://tns.agustin.top",
         projectStack: "Desarrollo Web, Mantenimiento",
       },
     ],
@@ -432,7 +432,7 @@ const translations: any = {
           "https://res.cloudinary.com/draig/image/upload/v1710537434/portolio-personal/mockups/ri4orhyagqfzejthwhbw.png",
         projectLinkGit:
           "https://github.com/nitdraig/tinta-negra-studios-nextjs",
-        projectLinkDeploy: "https://tinta-negra-studios.vercel.app",
+        projectLinkDeploy: "https://tns.agustin.top",
         projectStack: "Web Development, Maintenance",
       },
     ],
