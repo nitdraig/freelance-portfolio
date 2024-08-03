@@ -33,7 +33,7 @@ const Contact = () => {
           </h3>
           <p className="text-lg mb-4 ">{translations[language].contactText2}</p>
           <a
-            href="https://calendly.com/nitdraig"
+            href="https://cal.com/nitdraig"
             target="_blank"
             aria-label={translations[language].contactText5}
             className="text-2xl flex font-bold items-center text-[#fff] hover:text-[#6A0DAD]"
