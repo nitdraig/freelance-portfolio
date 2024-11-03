@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import {
   Navbar,
@@ -11,6 +10,7 @@ import {
 } from "@nextui-org/react";
 import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "../../../locals/languages";
+import Link from "next/link";
 
 export const NavBar = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);
