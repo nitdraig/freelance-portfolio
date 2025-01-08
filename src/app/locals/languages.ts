@@ -34,6 +34,20 @@ const translations: any = {
     experienceDesc: "Mis experiencias y que aprendí de ellas.",
     myExperiences: [
       {
+        jobName: "Web Development Project Manager ",
+        jobRole: "IcarisTech - Remote",
+        jobTime: "09/2024 - Actualidad",
+        jobSumary:
+          "Formo parte de un equipo de 5 personas, como Project Manager y Product Owner. Definición de parámetros de calidad, establecimiento de marco de trabajo cultural, apoyo en áreas de programación, dirección de visión y misión del proyecto, creación de documentación del proyecto y guía de reuniones diarias.",
+      },
+      {
+        jobName: "Project Manager ",
+        jobRole: "DigiChanges - Remote",
+        jobTime: "10/2024 - 12/2024",
+        jobSumary:
+          "Formé parte de DigiChanges como Project Manager. Colaboré en la definición de parámetros , establecimiento de marco de trabajo cultural,  creación de documentación del proyecto, relevamiento de requerimientos, seguimiento de tareas y guía de reuniones diarias.",
+      },
+      {
         jobName: "Freelancer Web Developer ",
         jobRole: "Freelancer",
         jobTime: "09/2023 - >",
@@ -64,6 +78,17 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectName: "HuellitasCTG - WEBAPP",
+        projectDescription:
+          "Formé parte del equipo de desarrollo del sitio web de HuellitasCTG, una ONG que rescata animales de la calle y les ayuda a encontrar un hogar. En este equipo colaboré como ProductOwner y ProjectManager de un equipo de 5 personas.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1736363286/portolio-personal/mockups/elpf6te0xrtvanohg3z4.png",
+        projectLinkGit: "https://github.com/inkua/Huellitas",
+        projectLinkDeploy: "https://www.huellitasctgna.com",
+        projectStack:
+          "Nextjs, Strapi, Tailwind, Typescript, Trello, Google Drive, Cloudinary, Npm, and GitHub.",
+      },
       {
         projectName: "Mailprex - Docs Page",
         projectDescription:
@@ -275,6 +300,20 @@ const translations: any = {
     experienceDesc: "My experiences and what I learned from them.",
     myExperiences: [
       {
+        jobName: "Web Development Project Manager ",
+        jobRole: "IcarisTech - Remote",
+        jobTime: "09/2024 - Actualidad",
+        jobSumary:
+          "I am part of a team of 5 people, as Project Manager and Product Owner. Definition of quality parameters, establishment of cultural framework, support in programming areas, direction of vision and mission of the project, creation of project documentation and daily meeting guide.",
+      },
+      {
+        jobName: "Project Manager ",
+        jobRole: "DigiChanges - Remote",
+        jobTime: "10/2024 - 12/2024",
+        jobSumary:
+          "I was part of DigiChanges as a Project Manager. I collaborated in defining parameters, establishing a cultural framework, creating project documentation, gathering requirements, monitoring tasks and guiding daily meetings.",
+      },
+      {
         jobName: "Freelancer Web Developer ",
         jobRole: "Freelancer",
         jobTime: "09/2023 - >",
@@ -305,6 +344,17 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectName: "HuellitasCTG - WEBAPP",
+        projectDescription:
+          "I was part of the website development team for HuellitasCTG, an NGO that rescues street animals and helps them find a home. In this team I collaborated as ProductOwner and ProjectManager of a team of 5 people.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1736363286/portolio-personal/mockups/elpf6te0xrtvanohg3z4.png",
+        projectLinkGit: "https://github.com/inkua/Huellitas",
+        projectLinkDeploy: "https://www.huellitasctgna.com",
+        projectStack:
+          "Nextjs, Strapi, Tailwind, Typescript, Trello, Google Drive, Cloudinary, Npm, and GitHub.",
+      },
       {
         projectName: "Mailprex - Docs Page",
         projectDescription:
