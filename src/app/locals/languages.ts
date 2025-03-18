@@ -81,7 +81,7 @@ const translations: any = {
       {
         projectName: "Icaristech | Landing Page Exclusiva",
         projectDescription:
-          "I developed this website in Nextjs, TypeScript and Tailwind, SEO included and Google positioning. Image optimization, exclusive domain and SSL certificates.",
+          "Desarrollé este sitio web en NextJS, TypeScript y Tailwind, SEO incluidos y el posicionamiento de Google. Optimización de imágenes, dominio exclusivo y certificados SSL. ",
         projectImg:
           "https://res.cloudinary.com/draig/image/upload/v1742321897/portolio-personal/mockups/scsfu4wgkz0xokhq7c48.png",
         projectLinkGit: "https://github.com/icaristech",
