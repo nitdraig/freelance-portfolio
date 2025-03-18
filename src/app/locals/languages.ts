@@ -79,6 +79,17 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "Icaristech | Landing Page Exclusiva",
+        projectDescription:
+          "I developed this website in Nextjs, TypeScript and Tailwind, SEO included and Google positioning. Image optimization, exclusive domain and SSL certificates.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1742321897/portolio-personal/mockups/scsfu4wgkz0xokhq7c48.png",
+        projectLinkGit: "https://github.com/icaristech",
+        projectLinkDeploy: "https://icaristech.com",
+        projectStack:
+          "Nextjs, Tailwind, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
+      {
         projectName: "HuellitasCTG - WEBAPP",
         projectDescription:
           "Formé parte del equipo de desarrollo del sitio web de HuellitasCTG, una ONG que rescata animales de la calle y les ayuda a encontrar un hogar. En este equipo colaboré como ProductOwner y ProjectManager de un equipo de 5 personas.",
@@ -344,6 +355,17 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectName: "Icaristech | Exclusive Landing Page",
+        projectDescription:
+          "I developed this website in Nextjs, TypeScript and Tailwind, SEO included and Google positioning. Image optimization, exclusive domain and SSL certificates.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1742321897/portolio-personal/mockups/scsfu4wgkz0xokhq7c48.png",
+        projectLinkGit: "https://github.com/icaristech",
+        projectLinkDeploy: "https://icaristech.com",
+        projectStack:
+          "Nextjs, Tailwind, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
       {
         projectName: "HuellitasCTG - WEBAPP",
         projectDescription:
