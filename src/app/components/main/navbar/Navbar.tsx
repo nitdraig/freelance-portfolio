@@ -8,9 +8,10 @@ import {
   NavbarMenu,
   NavbarMenuToggle,
 } from "@nextui-org/react";
-import { useLanguage } from "@/app/components/LanguageContext";
+
 import translations from "../../../locals/languages";
 import Link from "next/link";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 export const NavBar = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);

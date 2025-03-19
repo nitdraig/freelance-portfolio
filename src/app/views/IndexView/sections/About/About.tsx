@@ -1,5 +1,5 @@
-import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
+import { useLanguage } from "@/app/utils/LanguageContext";
 import { Image } from "@nextui-org/react";
 import React, { useState } from "react";
 

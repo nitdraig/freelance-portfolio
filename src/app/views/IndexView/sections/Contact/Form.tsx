@@ -1,10 +1,11 @@
 "use client";
-import { useLanguage } from "@/app/components/LanguageContext";
+
 import React from "react";
 import translations from "@/app/locals/languages";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Swal from "sweetalert2";
 import { useMailprex } from "usemailprex-react";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 const Form = () => {
   const { language } = useLanguage();

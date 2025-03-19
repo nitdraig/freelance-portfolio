@@ -1,10 +1,10 @@
-import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
+import { useLanguage } from "@/app/utils/LanguageContext";
 import { Image } from "@nextui-org/react";
 import React from "react";
 
 const Why = () => {
-  const { language, toggleLanguage } = useLanguage();
+  const { language } = useLanguage();
   return (
     <section
       className="bg-gradient-to-r from-[#0F0F0F] via-gray-900 to-[#0F0F0F] pt-10 w-screen"

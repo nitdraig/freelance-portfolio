@@ -26,8 +26,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/components/LanguageContext.tsx",
-    "src/app/components/LanguageContext.js",
+    "src/app/utils/LanguageContext.tsx",
+    "src/app/utils/LanguageContext.js",
     "src/app/views/IndexView/IndexView.tsx"
   ],
   "exclude": ["node_modules"]

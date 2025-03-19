@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 
-import { LanguageProvider } from "@/app/components/LanguageContext";
-import { NavBar } from "@/app/layouts/main/navbar/Navbar";
-import Footer from "@/app/layouts/main/footer/Footer";
-import App from "./components/app/App";
+import { NavBar } from "@/app/components/main/navbar/Navbar";
+import Footer from "@/app/components/main/footer/Footer";
+import App from "./sections/app/App";
+import { LanguageProvider } from "@/app/utils/LanguageContext";
 const IndexView = ({ Component, pageProps }: any) => {
   return (
     <>

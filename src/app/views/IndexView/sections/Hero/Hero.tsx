@@ -3,7 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import translations from "@/app/locals/languages";
-import { useLanguage } from "@/app/components/LanguageContext";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 function Hero() {
   const [text, count] = useTypewriter({

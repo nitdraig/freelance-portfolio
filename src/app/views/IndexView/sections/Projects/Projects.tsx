@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "./components/Box";
-import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 const Projects = () => {
   const { language } = useLanguage();

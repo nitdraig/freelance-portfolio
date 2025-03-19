@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import ModalProject from "./ModalProject";
-import { useLanguage } from "@/app/components/LanguageContext";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 const Box = ({
   projectName,

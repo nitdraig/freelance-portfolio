@@ -1,5 +1,5 @@
-import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
+import { useLanguage } from "@/app/utils/LanguageContext";
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";

@@ -11,8 +11,8 @@ import {
 } from "@nextui-org/react";
 import { BsArrowUpRightSquare, BsGithub } from "react-icons/bs";
 import Link from "next/link";
-import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 export default function ModalProject({
   projectImg,

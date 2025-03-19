@@ -1,8 +1,8 @@
-import { useLanguage } from "@/app/components/LanguageContext";
 import translations from "@/app/locals/languages";
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Form from "./Form";
+import { useLanguage } from "@/app/utils/LanguageContext";
 
 const Contact = () => {
   const { language } = useLanguage();
