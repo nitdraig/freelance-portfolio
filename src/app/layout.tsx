@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
+import Metrics from "./metrics/Metrics";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -72,7 +73,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <link rel="canonical" href="https://www.agustin.top" />
-      <body className={raleway.className}>{children}</body>
+      <body className={raleway.className}>
+        {children}
+        <Metrics />
+      </body>
     </html>
   );
 }
