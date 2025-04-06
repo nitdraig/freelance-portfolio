@@ -79,6 +79,17 @@ const translations: any = {
     ],
     projectsLists: [
       {
+        projectName: "JEMA | IA para gestión de proyectos de impacto ambiental",
+        projectDescription:
+          "Una plataforma que utiliza un agente de inteligencia artificial para promover la transparencia y sostenibilidad en la industria extractiva. ",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1743898025/portolio-personal/mockups/ircn7uts83lkx802befr.png",
+        projectLinkGit: "https://github.com/nitdraig/jema",
+        projectLinkDeploy: "https://jema.excelso.xyz",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
+      {
         projectName: "Icaristech | Landing Page Exclusiva",
         projectDescription:
           "Desarrollé este sitio web en NextJS, TypeScript y Tailwind, SEO incluidos y el posicionamiento de Google. Optimización de imágenes, dominio exclusivo y certificados SSL. ",
@@ -355,6 +366,17 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectname: "JEMA | AI for Environmental Impact Project Management ",
+        projectdescription:
+          "A platform that uses an artificial intelligence agent to promote transparency and sustainability in the extractive industry.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1743898025/portolio-personal/mockups/ircn7uts83lkx802befr.png",
+        projectLinkGit: "https://github.com/nitraig/jema",
+        projectLinkDeploy: "https://jema.excelso.xyz",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, TypeScript, Trello, Google Drive, Cloudinary, PNPM, Vercel and Github.",
+      },
       {
         projectName: "Icaristech | Exclusive Landing Page",
         projectDescription:
