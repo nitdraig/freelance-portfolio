@@ -1,6 +1,4 @@
 import type { Config } from "tailwindcss";
-const { nextui } = require("@nextui-org/react");
-const colors = require("tailwindcss/colors");
 
 const config: Config = {
   content: [
@@ -14,6 +12,6 @@ const config: Config = {
       backgroundImage: {},
     },
   },
-  plugins: [nextui()],
+  plugins: [],
 };
 export default config;
