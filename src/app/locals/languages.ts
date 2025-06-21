@@ -34,9 +34,9 @@ const translations: any = {
     experienceDesc: "Mis experiencias y que aprendí de ellas.",
     myExperiences: [
       {
-        jobName: "Web Development Project Manager ",
+        jobName: "Web Development Project Manager",
         jobRole: "IcarisTech - Remote",
-        jobTime: "09/2024 - Actualidad",
+        jobTime: "09/2024 - 03/2025",
         jobSumary:
           "Formo parte de un equipo de 5 personas, como Project Manager y Product Owner. Definición de parámetros de calidad, establecimiento de marco de trabajo cultural, apoyo en áreas de programación, dirección de visión y misión del proyecto, creación de documentación del proyecto y guía de reuniones diarias.",
       },
@@ -78,6 +78,28 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectName: "Excelso | Innovación, digitalización y sostenibilidad",
+        projectDescription:
+          "Excelso es un grupo tecnológico que impulsa la innovación, la digitalización y la sostenibilidad a través de soluciones digitales. Somos un grupo de personas apasionadas que se dedican a crear un futuro mejor a través de la tecnología.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1745624946/portolio-personal/mockups/aneb9ya5dov3rrtphaht.png",
+        projectLinkGit: "https://github.com/nitdraig",
+        projectLinkDeploy: "https://excelso.xyz",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
+      {
+        projectName: "Mining Talent Net | Find your place in the world",
+        projectDescription:
+          "Mining Talent Net es una plataforma que conecta a las compañías mineras con profesionales del sector. Permite a los usuarios crear perfiles, buscar ofertas de trabajo y solicitarlos. Las empresas pueden publicar ofertas de trabajo y buscar candidatos. Además, IA se utiliza para facilitar la creación de posiciones y mejorar el perfil de los talentos potenciales.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1747958124/portolio-personal/mockups/iu7vjkfwzxd9zzsse9dw.png",
+        projectLinkGit: "https://github.com/nitdraig",
+        projectLinkDeploy: "https://miningtalent.net",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
       {
         projectName: "JEMA | IA para gestión de proyectos de impacto ambiental",
         projectDescription:
@@ -366,6 +388,28 @@ const translations: any = {
       },
     ],
     projectsLists: [
+      {
+        projectName: "Excelso | Innovation, Digitalization and Sustainability",
+        projectDescription:
+          "Excelso is a technological group that drives innovation, digitalization and sustainability through digital solutions. We are a group of passionate people who are dedicated to creating a better future through technology.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1745624946/portolio-personal/mockups/aneb9ya5dov3rrtphaht.png",
+        projectLinkGit: "https://github.com/nitdraig",
+        projectLinkDeploy: "https://excelso.xyz",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
+      {
+        projectName: "Mining Talent Net | Find your place in the world",
+        projectDescription:
+          "Mining Talent Net is a platform that connects mining companies with professionals in the sector. It allows users to create profiles, look for job offers and request them. Companies can publish job offers and look for candidates. Besides, Ia is used to facilitate the creation of positions and improve the profile of potential talents.",
+        projectImg:
+          "https://res.cloudinary.com/draig/image/upload/v1747958124/portolio-personal/mockups/iu7vjkfwzxd9zzsse9dw.png",
+        projectLinkGit: "https://github.com/nitdraig",
+        projectLinkDeploy: "https://miningtalent.net",
+        projectStack:
+          "Next.js, Tailwind, Express.js, Node.js, Typescript, Trello, Google Drive, Cloudinary, pnpm, Vercel and GitHub.",
+      },
       {
         projectname: "JEMA | AI for Environmental Impact Project Management ",
         projectdescription:

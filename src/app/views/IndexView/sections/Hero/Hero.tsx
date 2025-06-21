@@ -24,7 +24,9 @@ function Hero() {
         <img
           className="relative rounded-full h-32 w-32 mx--auto object-cover"
           alt="perfil"
-          src="https://res.cloudinary.com/draig/image/upload/v1688835318/profile-pic_2_pxpzfg.png"
+          loading="lazy"
+          draggable="false"
+          src="https://media.licdn.com/dms/image/v2/D4D03AQH9kUhcC2TTxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728603563928?e=1755734400&v=beta&t=YjYWDG7wwSxpdWMZUh5YCPiwRrVTWm2qLZcDSAIhGjE"
         />
         <div className="z-20">
           <h2 className=" uppercase  text-3xl lg:text-5xl text-white pb-3 tracking-[8px]">
